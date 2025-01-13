@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import Hero from './_components/Sections/Hero/Hero'
-import About from './_components/Sections/About/About'
+// import About from './_components/Sections/About/About'
 import Services from './_components/Sections/Services/Services'
 import OurTeam from './_components/Sections/OurTeam/OurTeam'
 
