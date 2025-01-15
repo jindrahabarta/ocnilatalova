@@ -10,7 +10,7 @@ const ContactTable = () => {
             <div className='group'>
                 <Link
                     href={'/'}
-                    className='flex flex-row flex-wrap sm:flex-col md:flex-row  justify-center items-center gap-2 lg:gap-4 group-hover:text-green'
+                    className='flex flex-row flex-wrap sm:flex-col md:flex-row  justify-center items-center gap-2 lg:gap-4 group-hover:text-blue duration-200'
                 >
                     <div className='h-10 flex items-center group-hover:pb-2 duration-200'>
                         <PhoneIcon className='w-6 sm:w-8'></PhoneIcon>
@@ -23,7 +23,7 @@ const ContactTable = () => {
             <div className='group'>
                 <Link
                     href={'/'}
-                    className='flex flex-row flex-wrap sm:flex-col md:flex-row justify-center items-center gap-2 lg:gap-4 group-hover:text-green'
+                    className='flex flex-row flex-wrap sm:flex-col md:flex-row justify-center items-center gap-2 lg:gap-4 group-hover:text-blue duration-200'
                 >
                     <div className='h-10 flex items-center group-hover:pb-2 duration-200'>
                         <OldPhoneIcon className='w-6 sm:w-8'></OldPhoneIcon>
@@ -36,7 +36,7 @@ const ContactTable = () => {
             <div className='group'>
                 <Link
                     href={'/'}
-                    className='flex flex-row flex-wrap sm:flex-col md:flex-row  justify-center items-center gap-2 lg:gap-4 group-hover:text-green'
+                    className='flex flex-row flex-wrap sm:flex-col md:flex-row  justify-center items-center gap-2 lg:gap-4 group-hover:text-blue duration-200'
                 >
                     <div className='h-10 flex items-center group-hover:pb-2 duration-200'>
                         <MapPinIcon className='w-6 sm:w-8'></MapPinIcon>

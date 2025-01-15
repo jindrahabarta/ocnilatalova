@@ -9,7 +9,7 @@ const ServiceBox = ({
     link,
 }: {
     title: string
-    icon: string
+    icon: React.JSX.Element
     className?: string
     link: string
 }) => {
@@ -22,13 +22,14 @@ const ServiceBox = ({
                 className={`${className} absolute w-full bottom-0 left-0 h-2 group-hover:h-full duration-200 ease-in-out `}
             ></div>
 
-            <div className='h-36 relative'>
-                <Image
+            <div className='h-36 flex justify-center relative'>
+                {/* <Image
                     src={icon}
                     alt={'ikona: ' + title}
                     width={300}
                     height={300}
-                ></Image>
+                ></Image> */}
+                {icon}
             </div>
             <h2 className='mt-8 text-3xl relative group-hover:text-white duration-200 whitespace-pre-line'>
                 {title}

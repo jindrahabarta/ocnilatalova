@@ -1,5 +1,9 @@
 import React from 'react'
 import ServiceBox from './ServiceBox'
+import OcniOrdinaceIcon from '../../../../../public/images/Logo/OcniOrdinaceIcon'
+import OrtOptikaIcon from '../../../../../public/images/Logo/OrtOptikaIcon'
+import OptikaIcon from '../../../../../public/images/Logo/OptikaIcon'
+import ZrakovyTerapeutIcon from '../../../../../public/images/Logo/ZrakovyTerapeutIcon'
 
 // const ServicesList = [
 //     {
@@ -17,25 +21,33 @@ const Services = () => {
             <div className='mt-16 grid grid-cols-2 lg:grid-cols-4 gap-4'>
                 <ServiceBox
                     title={'Oční\nordinace'}
-                    icon='http://www.ocnilatalova.cz/img/logo.png'
+                    icon={
+                        <OcniOrdinaceIcon className='w-full group-hover:text-white'></OcniOrdinaceIcon>
+                    }
                     className='bg-green'
                     link=''
                 ></ServiceBox>
                 <ServiceBox
                     title={'Oční\noptika'}
-                    icon='http://www.ortoptikaolomouc.cz/ocnioptikaram.jpg'
+                    icon={
+                        <OptikaIcon className='w-full group-hover:text-white'></OptikaIcon>
+                    }
                     className='bg-blue'
                     link=''
                 ></ServiceBox>
                 <ServiceBox
                     title={'Zrakový\nterapeut'}
-                    icon='http://www.ortoptikaolomouc.cz/zrakovyterapeutram.jpg'
+                    icon={
+                        <ZrakovyTerapeutIcon className='group-hover:text-white duration-200'></ZrakovyTerapeutIcon>
+                    }
                     className='bg-orange'
                     link=''
                 ></ServiceBox>
                 <ServiceBox
                     title={'Ortoptika'}
-                    icon='http://www.optikaolomouc.cz/ortoptikaram.jpg'
+                    icon={
+                        <OrtOptikaIcon className='w-[80%] group-hover:text-white'></OrtOptikaIcon>
+                    }
                     className='bg-violet'
                     link=''
                 ></ServiceBox>

@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <footer className='mt-20'>
-            <div className='container flex justify-between gap-2 pb-4'>
+            <div className='container flex flex-col sm:flex-row justify-between gap-10 sm:gap-2 pb-4'>
                 <div className='flex flex-col justify-between'>
                     <div>
                         <Link href={'/'}>
@@ -58,10 +58,10 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div className=' flex flex-col'>
                     <h3>Kde nás najdete</h3>
 
-                    <div className='rounded-2xl overflow-hidden mt-4'>
+                    <div className='rounded-2xl overflow-hidden mt-4 flex-1'>
                         <iframe
                             width='100%'
                             height='100%'

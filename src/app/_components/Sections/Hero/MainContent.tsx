@@ -14,8 +14,8 @@ const MainContent = () => {
                 </h1>
                 <h2 className='mt-4'>Postaráme se o váš zrak</h2>
                 <div className='mt-8 flex gap-4'>
-                    <Button text={'O nás'} link={'/'}></Button>
                     <Button text={'Služby'} link={'/'}></Button>
+                    <Button variant='stroke' text={'O nás'} link={'/'}></Button>
                 </div>
             </article>
 

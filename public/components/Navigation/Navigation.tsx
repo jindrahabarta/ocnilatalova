@@ -2,18 +2,18 @@
 import { usePathname } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 import gsapInit from '../../animations/gsapInit'
-import IconButton from '../Buttons/IconButton'
+// import IconButton from '../Buttons/IconButton'
 import Link from 'next/link'
 import HamburgerIcon from './HamburgerIcon'
 import MobileNav from './MobileNav'
 
-import PhoneIcon from '../Icons/PhoneIcon'
+// import PhoneIcon from '../Icons/PhoneIcon'
 import NavLink from './NavLink'
 
-import GlassImage from '@/../public/images/Navigation/ortoptikaram.jpg'
-import ZrakovyTerapeut from '@/../public/images/Navigation/zrakovyterapeutram.png'
-import OcniOptika from '@/../public/images/Navigation/ocnioptikaram.png'
-import OcniOrdinace from '@/../public/images/Navigation/ocniordinaceram.jpg'
+import OptikaIcon from '../../images/Logo/OptikaIcon'
+import OrtOptikaIcon from '../../images/Logo/OrtOptikaIcon'
+import OcniOrdinaceIcon from '../../images/Logo/OcniOrdinaceIcon'
+import ZrakovyTerapeutIcon from '../../images/Logo/ZrakovyTerapeutIcon'
 
 const Navigation = () => {
     const [isOpened, setIsOpened] = useState(false)
@@ -38,44 +38,59 @@ const Navigation = () => {
         >
             <MobileNav></MobileNav>
 
-            <nav className='container flex items-center justify-between bg-white relative'>
+            <nav className='container pr-0 sm:pr-2 flex items-center justify-between bg-white relative'>
                 <div>
-                    <Link href={'/'}>Logo</Link>
+                    <Link href={'/'}>
+                        <p className='text-lg'>Oční klinika</p>
+                        <p className=' text-3xl font-bold'>Látalová</p>
+                    </Link>
                 </div>
 
                 <div className='flex gap-2 sm:gap-6 items-center'>
-                    <ul className='hidden sm:flex items-center '>
+                    <ul className='hidden sm:flex  '>
                         <NavLink
                             text={'Oční ordinace'}
-                            link={'/'}
-                            img={OcniOrdinace}
+                            link={'/ocni-ordinace'}
+                            icon={
+                                <OcniOrdinaceIcon className='w-40 hover:text-white duration-200'></OcniOrdinaceIcon>
+                            }
+                            path={path}
                             color={'green'}
                         ></NavLink>
                         <NavLink
                             text={'Oční optika'}
-                            link={'/'}
-                            img={OcniOptika}
+                            link={'/ocni-optika'}
+                            icon={
+                                <OptikaIcon className='w-40 hover:text-white duration-200'></OptikaIcon>
+                            }
+                            path={path}
                             color={'blue'}
                         ></NavLink>
                         <NavLink
                             text={'Zrakový terapeut'}
-                            link={'/'}
-                            img={ZrakovyTerapeut}
+                            link={'/zrakovy-terapeut'}
+                            icon={
+                                <ZrakovyTerapeutIcon className='w-40 hover:text-white duration-200'></ZrakovyTerapeutIcon>
+                            }
+                            path={path}
                             color={'orange'}
                         ></NavLink>
                         <NavLink
                             text={'Ortoptika'}
-                            link={'/'}
-                            img={GlassImage}
+                            link={'/ortoptika'}
+                            icon={
+                                <OrtOptikaIcon className='w-24 hover:text-white duration-200'></OrtOptikaIcon>
+                            }
+                            path={path}
                             color={'violet'}
                         ></NavLink>
                     </ul>
-                    <IconButton text={'+420 585 227 940'} link={'/'}>
+                    {/* <IconButton text={'+420 585 227 940'} link={'/'}>
                         <PhoneIcon
                             strokeWidth='2'
                             className='w-5 sm:w-6 stroke-white sm:group-hover:stroke-green duration-200'
                         ></PhoneIcon>
-                    </IconButton>
+                    </IconButton> */}
 
                     <HamburgerIcon
                         handleClick={openMenu}

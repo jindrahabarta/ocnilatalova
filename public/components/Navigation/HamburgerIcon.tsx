@@ -8,7 +8,7 @@ const HamburgerClosed = ({ isOpened, handleClick }: props) => {
         <button
             onClick={handleClick}
             aria-label='Otevírání mobilního menu'
-            className='w-12 h-12 px-2 relative sm:hidden flex flex-col justify-center items-center gap-[7px] bg-green rounded-xl'
+            className='w-12 h-12 px-2 relative sm:hidden flex flex-col justify-center items-center gap-[7px] bg-blue rounded-xl'
         >
             <div
                 className={` h-0.5 bg-white rounded-full duration-200 ${

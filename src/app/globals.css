@@ -16,11 +16,11 @@
 }
 
 p {
-    @apply text-xl;
+    @apply sm:text-lg text-base;
 }
 
 a {
-    @apply hover:text-green duration-200;
+    @apply hover:text-blue duration-200;
 }
 
 h1 {
