@@ -3,45 +3,37 @@ import Image from 'next/image'
 
 const About = () => {
     return (
-        <div className='container flex gap-10 relative'>
-            <div className='absolute top-0 left-8 max-w-[50%]'>
-                <h1 className=' text-7xl uppercase'>Pár slov o náší klinice</h1>
-                <h2 className='text-5xl'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Consequatur fuga inventore, illum vel, rerum fugit id
-                    reiciendis repellendus
-                </h2>
-            </div>
-
-            <div className='flex-[3]'></div>
-            <div className='flex-[9] pt-10'>
-                <Image
-                    src={
-                        'https://framerusercontent.com/images/MpAHZ5m0wRWS4qmFtIVd3W4Efs.png'
-                    }
-                    width={800}
-                    height={800}
-                    alt={'Obrázek o nás'}
-                    className='w-full object-cover aspect-video  shadow-md'
-                ></Image>
-
-                <div className='flex gap-8 mt-8'>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Provident, laudantium eaque. Dolore nostrum
-                        molestiae vitae natus nulla officia libero? Aut maxime,
-                        ipsum totam laudantium praesentium excepturi nemo.
-                        Accusantium, necessitatibus hic?
-                    </p>
+        <section id='o-nas' className='container pt-20'>
+            <h1>Pár slov o naší klinice</h1>
+            <div className='flex gap-10 mt-10'>
+                <div className='flex-1'>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nesciunt aspernatur quo omnis magnam quos soluta quae
-                        optio eveniet, animi corrupti eum eaque cumque molestiae
-                        vel possimus ab magni dolore in!
+                        Porro a nihil sint suscipit ullam fugit unde numquam cum
+                        impedit itaque molestias, incidunt aliquid ea quasi
+                        neque id inventore aliquam eum.
+                    </p>
+                    <p className='mt-4'>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Vitae consequuntur a, aliquam unde dicta autem,
+                        aliquid numquam ipsum dolore tenetur alias eveniet
+                        voluptatum possimus repellat pariatur ipsa aut accusamus
+                        reiciendis.
                     </p>
                 </div>
+                <div className='flex-1'>
+                    <Image
+                        src={
+                            'https://lh3.googleusercontent.com/p/AF1QipNnX147DIcF0sKNynQkQnrJmh0xQ04rO_pxXYwq=s1360-w1360-h1020'
+                        }
+                        alt={'Obrázek o nás'}
+                        width={1000}
+                        height={1000}
+                        className='rounded-xl aspect-video object-cover'
+                    ></Image>
+                </div>
             </div>
-        </div>
+        </section>
     )
 }
 

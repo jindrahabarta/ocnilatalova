@@ -2,9 +2,9 @@ import { Metadata } from 'next'
 import React from 'react'
 import Hero from './Sections/Hero'
 import About from './Sections/About'
-import OurTeam from '../_components/Sections/OurTeam/OurTeam'
 import Services from './Sections/Services'
 import OpeningTable from './Sections/OpeningTable'
+import OurTeam from '../../../public/components/Global/OurTeam'
 
 export const metadata: Metadata = {
     title: 'Oční ordinace',
@@ -13,33 +13,30 @@ export const metadata: Metadata = {
 
 const OcniOrdinace = () => {
     return (
-        <div className='w-full flex flex-col'>
+        <div id='ocniOrdinacePage' className='w-full flex flex-col'>
             <Hero></Hero>
-            {/* 
-            <p>
-                V našem specializovaném lékařském pracovišti poskytujeme tyto
-                služby: • vyšetření na OCT přístroji více informací zde •
-                vyšetření, sledování a léčba pacientů s očním onemocněním
-                (katarakta, glaukom, záněty, refrakční vady a jiné), preventivní
-                kontrolní vyšetření u pacientů s rizikem vzniku očního
-                onemocnění, vyšetření u indikovaných pacientů se systémovým
-                onemocněním (pacienti s cukrovkou, vysokým krevním tlakem, s
-                endokrinní či autoimunitní chorobou a jinými) • ortoptika -
-                zabývá se poruchami zrakových funkcí spojených se změnami
-                postavení očí (tj. šilháním-strabismem) a tupozrakostí
-                (amblyopií),poruchy prostorových funkcí (binokularita) -
-                diagnostika těchto poruch, terapie pomocí komplexních
-                pleopticko-ortoptických cvičení • práce se zrakově postiženými •
-                kontaktologie – kontaktní čočky • zraková edukace Úzce
-                spolupracujeme s praktickými lékaři i se specializovanými lékaři
-                z jiných oborů, našim pacientům je takto zajištěn komplexní
-                přístup v diagnostice a léčbě jejich onemocnění .
-            </p> */}
 
             <About></About>
-
-            <OurTeam></OurTeam>
             <Services></Services>
+            <OurTeam
+                className='grid-cols-2'
+                team={[
+                    {
+                        name: 'MUDr. Olga Látalová',
+                        role: 'Vedoucí lékař',
+                        quote: 'Nějaká větička',
+                        image: 'https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVuJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D',
+                    },
+                    {
+                        name: 'MUDr. Olga Floder',
+                        role: 'Lékař',
+                        quote: 'Nějaká větička',
+                        image: 'https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVuJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D',
+                    },
+                ]}
+                title={'Vedoucí lékaři'}
+                title2={'Společně fungujeme již od roku 2013'}
+            ></OurTeam>
             <OpeningTable></OpeningTable>
         </div>
     )

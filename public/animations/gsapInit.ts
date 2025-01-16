@@ -32,9 +32,32 @@ const gsapInit = (path: string) => {
         },
     })
 
-    //Homepage
     if (path === '/') {
+        //HOMEPAGE
         gsap.to('.heroPart', {
+            opacity: 1,
+            translateY: 0,
+            duration: 0.4,
+            stagger: 0.1,
+            ease: 'power1.out',
+        })
+    } else if (path === '/ocni-ordinace') {
+        //OCNI ORDINACE
+
+        gsap.to('.aboutUsPart', {
+            opacity: 1,
+            translateY: 0,
+            duration: 0.4,
+            stagger: 0.1,
+            ease: 'power1.out',
+        })
+
+        gsap.to('.servicesPart', {
+            scrollTrigger: {
+                trigger: '#services',
+                start: 'top center',
+                end: 'bottom center',
+            },
             opacity: 1,
             translateY: 0,
             duration: 0.4,

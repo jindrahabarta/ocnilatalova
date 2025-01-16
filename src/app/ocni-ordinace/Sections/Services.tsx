@@ -3,9 +3,12 @@ import Image from 'next/image'
 
 const Services = () => {
     return (
-        <section className='h-screen w-full relative flex items-center'>
+        <section
+            id='services'
+            className='py-20 mt-20 w-full relative flex items-center'
+        >
             <Image
-                className='w-full h-screen absolute top-0 object-cover'
+                className='w-full h-full absolute top-0 object-cover opacity-0 servicesPart'
                 src={
                     'https://images.pexels.com/photos/5996646/pexels-photo-5996646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
                 }
@@ -15,7 +18,7 @@ const Services = () => {
             ></Image>
 
             <div className='container relative '>
-                <div className='bg-white/80 backdrop-blur-sm w-1/2 rounded-xl p-8'>
+                <div className='bg-white/80 backdrop-blur-sm w-1/2 rounded-xl p-8 opacity-0 translate-y-16 servicesPart'>
                     <h2 className='text-xl'>
                         V našem specializovaném lékařském pracovišti poskytujeme
                         tyto služby:
