@@ -16,7 +16,7 @@ export default function Home() {
             <About></About>
             <Services></Services>
             <OurTeam
-                className='sm:grid-cols-4 grid-cols-2'
+                className='md:grid-cols-4 grid-cols-2'
                 team={[
                     {
                         name: 'MUDr. Olga Látalová',

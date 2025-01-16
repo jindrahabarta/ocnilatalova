@@ -5,7 +5,7 @@ const About = () => {
     return (
         <section className='container pt-20'>
             <h1 className='aboutUsPart opacity-0 translate-y-16'>O nás</h1>
-            <div className='flex gap-10 mt-10'>
+            <div className='flex flex-col sm:flex-row gap-10 mt-10'>
                 <div className='flex-1 aboutUsPart opacity-0 translate-y-16'>
                     <p>
                         MUDr. Olga Látalová má bohaté zkušenosti v oblasti

@@ -5,7 +5,7 @@ const About = () => {
     return (
         <section id='o-nas' className='container pt-20'>
             <h1>Pár slov o naší klinice</h1>
-            <div className='flex gap-10 mt-10'>
+            <div className='flex flex-col md:flex-row gap-10 mt-10'>
                 <div className='flex-1'>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.

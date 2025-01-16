@@ -4,9 +4,9 @@ import Image from 'next/image'
 const OpeningTable = () => {
     return (
         <section className='container'>
-            <div className='flex gap-10 mt-20'>
+            <div className='flex flex-col md:flex-row gap-10 mt-20'>
                 <div className='flex-1'>
-                    <h1>Otevírací doba</h1>
+                    <h2>Otevírací doba</h2>
                     <table className='w-full mt-4 text-xl'>
                         <tbody>
                             <tr>

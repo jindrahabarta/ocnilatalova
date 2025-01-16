@@ -18,7 +18,7 @@ const Services = () => {
             ></Image>
 
             <div className='container relative '>
-                <div className='bg-white/80 backdrop-blur-sm w-1/2 rounded-xl p-8 opacity-0 translate-y-16 servicesPart'>
+                <div className='bg-white/80 backdrop-blur-sm w-full sm:w-1/2 rounded-xl p-8 opacity-0 translate-y-16 servicesPart'>
                     <h2 className='text-xl'>
                         V našem specializovaném lékařském pracovišti poskytujeme
                         tyto služby:

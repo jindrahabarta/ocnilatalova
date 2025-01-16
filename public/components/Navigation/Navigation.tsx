@@ -36,13 +36,15 @@ const Navigation = () => {
             id='navigation'
             className='fixed z-50 top-0 left-0 w-screen bg-white shadow-lg border-b border-black/30'
         >
-            <MobileNav></MobileNav>
+            <MobileNav handleCloseMenu={openMenu}></MobileNav>
 
             <nav className='container pr-0 sm:pr-2 flex items-center justify-between bg-white relative'>
-                <div>
+                <div className='py-2'>
                     <Link href={'/'}>
-                        <p className='text-lg'>Oční klinika</p>
-                        <p className=' text-3xl font-bold'>Látalová</p>
+                        <p className='text-base sm:text-lg'>Oční klinika</p>
+                        <p className='text-2xl sm:text-3xl font-bold'>
+                            Látalová
+                        </p>
                     </Link>
                 </div>
 
@@ -52,7 +54,7 @@ const Navigation = () => {
                             text={'Oční ordinace'}
                             link={'/ocni-ordinace'}
                             icon={
-                                <OcniOrdinaceIcon className='w-40 hover:text-white duration-200'></OcniOrdinaceIcon>
+                                <OcniOrdinaceIcon className='w-24 md:w-32 lg:w-40 hover:text-white duration-200'></OcniOrdinaceIcon>
                             }
                             path={path}
                             color={'green'}
@@ -61,7 +63,7 @@ const Navigation = () => {
                             text={'Oční optika'}
                             link={'/ocni-optika'}
                             icon={
-                                <OptikaIcon className='w-40 hover:text-white duration-200'></OptikaIcon>
+                                <OptikaIcon className='w-24 lg:w-40 md:w-32 hover:text-white duration-200'></OptikaIcon>
                             }
                             path={path}
                             color={'blue'}
@@ -70,7 +72,7 @@ const Navigation = () => {
                             text={'Zrakový terapeut'}
                             link={'/zrakovy-terapeut'}
                             icon={
-                                <ZrakovyTerapeutIcon className='w-40 hover:text-white duration-200'></ZrakovyTerapeutIcon>
+                                <ZrakovyTerapeutIcon className='w-24 md:w-32 lg:w-40 hover:text-white duration-200'></ZrakovyTerapeutIcon>
                             }
                             path={path}
                             color={'orange'}
@@ -79,7 +81,7 @@ const Navigation = () => {
                             text={'Ortoptika'}
                             link={'/ortoptika'}
                             icon={
-                                <OrtOptikaIcon className='w-24 hover:text-white duration-200'></OrtOptikaIcon>
+                                <OrtOptikaIcon className='w-16 md:w-20 lg:w-24 hover:text-white duration-200'></OrtOptikaIcon>
                             }
                             path={path}
                             color={'violet'}

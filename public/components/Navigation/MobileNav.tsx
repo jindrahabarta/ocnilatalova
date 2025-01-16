@@ -1,19 +1,46 @@
 import React from 'react'
 import Button from '../Buttons/Button'
+import MobileNavLink from './MobileNavLink'
 
-const MobileNav = () => {
+const MobileNav = ({ handleCloseMenu }: { handleCloseMenu: () => void }) => {
     return (
         <aside
             id='mobileNav'
-            className='opacity-0 pointer-events-none bg-white select-none absolute h-[100lvh] w-screen  flex-col justify-between items-center top-0 pt-32 pb-4'
+            className='opacity-0 pointer-events-none block sm:!hidden bg-white select-none absolute h-[100dvh] w-screen  flex-col justify-between items-center top-0 pt-32 pb-4'
         >
             <ul>
-                <li>sldf</li>
-                <li>sldf</li>
-                <li>sldf</li>
+                <MobileNavLink
+                    handleClose={handleCloseMenu}
+                    text={'Domů'}
+                    link={'/'}
+                ></MobileNavLink>
+                <MobileNavLink
+                    handleClose={handleCloseMenu}
+                    text={'Oční ordinace'}
+                    link={'/ocni-ordinace'}
+                ></MobileNavLink>
+                <MobileNavLink
+                    handleClose={handleCloseMenu}
+                    text={'Oční optika'}
+                    link={'/ocni-optika'}
+                ></MobileNavLink>
+                <MobileNavLink
+                    handleClose={handleCloseMenu}
+                    text={'Zrakový terapeut'}
+                    link={'/zrakovy-terapeut'}
+                ></MobileNavLink>
+                <MobileNavLink
+                    handleClose={handleCloseMenu}
+                    text={'Ortoptika'}
+                    link={'/ortoptika'}
+                ></MobileNavLink>
             </ul>
 
-            <Button text={'+420 585 227 940'} link={'/'}></Button>
+            <Button
+                className='select-none'
+                text={'+420 585 227 940'}
+                link={'tel:585227940'}
+            ></Button>
         </aside>
     )
 }
