@@ -51,7 +51,6 @@ const Navigation = () => {
                 <div className='flex gap-2 sm:gap-6 items-center'>
                     <ul className='hidden sm:flex  '>
                         <NavLink
-                            text={'Oční ordinace'}
                             link={'/ocni-ordinace'}
                             icon={
                                 <OcniOrdinaceIcon className='w-24 md:w-32 lg:w-40 hover:text-white duration-200'></OcniOrdinaceIcon>
@@ -60,7 +59,6 @@ const Navigation = () => {
                             color={'green'}
                         ></NavLink>
                         <NavLink
-                            text={'Oční optika'}
                             link={'/ocni-optika'}
                             icon={
                                 <OptikaIcon className='w-24 lg:w-40 md:w-32 hover:text-white duration-200'></OptikaIcon>
@@ -69,7 +67,6 @@ const Navigation = () => {
                             color={'blue'}
                         ></NavLink>
                         <NavLink
-                            text={'Zrakový terapeut'}
                             link={'/zrakovy-terapeut'}
                             icon={
                                 <ZrakovyTerapeutIcon className='w-24 md:w-32 lg:w-40 hover:text-white duration-200'></ZrakovyTerapeutIcon>
@@ -78,7 +75,6 @@ const Navigation = () => {
                             color={'orange'}
                         ></NavLink>
                         <NavLink
-                            text={'Ortoptika'}
                             link={'/ortoptika'}
                             icon={
                                 <OrtOptikaIcon className='w-16 md:w-20 lg:w-24 hover:text-white duration-200'></OrtOptikaIcon>
