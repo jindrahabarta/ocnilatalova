@@ -33,7 +33,7 @@ const gsapInit = (path: string) => {
     })
 
     //HERO
-    if (path === '/' || path === '/ocni-ordinace') {
+    if (path === '/' || path === '/ocni-ordinace' || path === '/ocni-optika') {
         //HERO animation init
         gsap.to('.heroPart', {
             opacity: 1,

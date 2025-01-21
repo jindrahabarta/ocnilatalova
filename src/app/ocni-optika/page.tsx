@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import React from 'react'
+import Hero from './Sections/Hero/Hero'
 
 export const metadata: Metadata = {
     title: 'Oční optika',
@@ -8,8 +9,8 @@ export const metadata: Metadata = {
 
 const OcniOptika = () => {
     return (
-        <div className='w-full flex flex-col gap-20 pt-32 container'>
-            <h1>Oční optika</h1>
+        <div id='ocniOptikaPage' className='w-full flex flex-col'>
+            <Hero></Hero>
         </div>
     )
 }
