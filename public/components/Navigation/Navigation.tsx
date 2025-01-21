@@ -41,7 +41,7 @@ const Navigation = () => {
             <nav className='container pr-0 sm:pr-2 flex items-center justify-between bg-white relative'>
                 <div className='py-2'>
                     <Link href={'/'}>
-                        <p className='text-base sm:text-lg'>Oční klinika</p>
+                        <p className='text-base sm:text-lg'>Oční centrum</p>
                         <p className='text-2xl sm:text-3xl font-bold'>
                             Látalová
                         </p>

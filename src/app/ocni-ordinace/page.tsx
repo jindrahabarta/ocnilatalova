@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import React from 'react'
-import Hero from './Sections/Hero'
+import Hero from './Sections/Hero/Hero'
 import About from './Sections/About'
 import Services from './Sections/Services'
 import OpeningTable from './Sections/OpeningTable'
@@ -20,6 +20,10 @@ const OcniOrdinace = () => {
             <Services></Services>
             <OurTeam
                 className='grid-cols-2'
+                background={{
+                    transition: 'from-green/10 to-transparent',
+                    bg: 'bg-green/10',
+                }}
                 team={[
                     {
                         name: 'MUDr. Olga Látalová',

@@ -13,15 +13,19 @@ interface props {
     title: string
     title2: string
     className: string
+    background: {
+        transition: string
+        bg: string
+    }
 }
 
-const OurTeam = ({ team, title, title2, className }: props) => {
+const OurTeam = ({ team, title, title2, className, background }: props) => {
     return (
         <section className='relative overflow-hidden'>
             <section
-                className={`w-full h-20 bg-gradient-to-t from-blue/10 to-transparent`}
+                className={`w-full h-20 bg-gradient-to-t ${background.transition}`}
             ></section>
-            <div className='bg-blue/10 pt-20 pb-20 relative'>
+            <div className={`${background.bg} pt-20 pb-20 relative`}>
                 <div className='container'>
                     <h1 className='text-center'>{title}</h1>
                     <h2 className='text-center italic text-gray-600 text-lg mt-2'>

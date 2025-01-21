@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const OpeningTable = () => {
     return (
-        <section className='container'>
+        <section id='oteviraci-doba' className='container'>
             <div className='flex flex-col md:flex-row gap-10 mt-20'>
                 <div className='flex-1'>
                     <h2>Otevírací doba</h2>

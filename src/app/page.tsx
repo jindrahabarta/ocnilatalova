@@ -17,6 +17,10 @@ export default function Home() {
             <Services></Services>
             <OurTeam
                 className='md:grid-cols-4 grid-cols-2'
+                background={{
+                    transition: 'from-blue/10 to-transparent',
+                    bg: 'bg-blue/10',
+                }}
                 team={[
                     {
                         name: 'MUDr. Olga Látalová',

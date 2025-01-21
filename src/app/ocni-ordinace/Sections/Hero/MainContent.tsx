@@ -9,21 +9,19 @@ const MainContent = () => {
     return (
         <div className='container flex-1 flex flex-col md:flex-row gap-10 pt-32 md:pt-10'>
             <article className='heroPart opacity-0 translate-y-16 flex-1 flex flex-col justify-center items-start'>
-                <h1 className='text-6xl'>
-                    Oční centrum <em className=' not-italic'>Látalová</em>
-                </h1>
-                <h2 className='mt-4'>Postaráme se o váš zrak</h2>
+                <h1 className='text-6xl'>Oční ordinace</h1>
+                {/* <h2 className='mt-4'></h2> */}
                 <div className='mt-8 flex gap-4'>
                     <Button
-                        text={'Služby'}
-                        link={'/#nase-sluzby'}
-                        className='bg-blue border-blue'
+                        className='bg-green border border-green'
+                        text={'Otevírací doba'}
+                        link={'#oteviraci-doba'}
                     ></Button>
                     <Button
                         variant='stroke'
                         text={'O nás'}
-                        link={'/#o-nas'}
-                        className='sm:hover:bg-blue border-blue'
+                        link={'#o-nas'}
+                        className='border-green sm:hover:bg-green'
                     ></Button>
                 </div>
             </article>

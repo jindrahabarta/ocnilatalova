@@ -32,8 +32,8 @@ const gsapInit = (path: string) => {
         },
     })
 
-    if (path === '/') {
-        //HOMEPAGE
+    if (path === '/' || path === '/ocni-ordinace') {
+        //HERO animation init
         gsap.to('.heroPart', {
             opacity: 1,
             translateY: 0,

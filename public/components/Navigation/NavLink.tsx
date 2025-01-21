@@ -2,14 +2,13 @@ import Link from 'next/link'
 import React from 'react'
 
 interface props {
-    text: string
     link: string
     icon: React.JSX.Element
     color: string
     path: string
 }
 
-const NavLink = ({ text, link, icon, color, path }: props) => {
+const NavLink = ({ link, icon, color, path }: props) => {
     return (
         <li className='border border-b-0 border-t-0 border-black/10 relative group box-content flex items-center'>
             <span
@@ -20,7 +19,7 @@ const NavLink = ({ text, link, icon, color, path }: props) => {
 
             <Link
                 href={link}
-                className={`flex flex-col items-center p-4 gap-2  group-hover:text-white relative ${
+                className={`flex h-full items-center p-4 gap-2  group-hover:text-white relative ${
                     link === path && 'text-white'
                 }`}
             >
