@@ -15,7 +15,7 @@ const Button = ({
     if (variant === 'filled' || !variant)
         return (
             <button
-                className={`py-2 px-6 shadow-lg text-2xl text-white font-semibold  border-2 rounded-full sm:hover:bg-transparent duration-200 group ${className}`}
+                className={`sm:py-4 sm:px-6 py-1 px-3 shadow-lg text-xl md::text-2xl text-white font-semibold  border-2 rounded-full sm:hover:bg-transparent duration-200 group ${className}`}
                 aria-label={'Tlačítko:' + text}
             >
                 <Link
@@ -30,7 +30,7 @@ const Button = ({
     if (variant === 'stroke')
         return (
             <button
-                className={`py-2 px-6 shadow-lg text-2xl text-white font-semibold border-2 rounded-full sm:hover:text-black bg-transparent duration-200 group ${className}`}
+                className={`sm:py-4 sm:px-6 py-1 px-3 shadow-lg text-xl text-white font-semibold border-2 rounded-full sm:hover:text-black bg-transparent duration-200 group ${className}`}
                 aria-label={'Tlačítko:' + text}
             >
                 <Link

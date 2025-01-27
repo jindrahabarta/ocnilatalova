@@ -24,7 +24,7 @@ p {
 }
 
 a {
-    @apply hover:text-blue duration-200;
+    @apply sm:hover:text-blue duration-200;
 }
 
 h1 {

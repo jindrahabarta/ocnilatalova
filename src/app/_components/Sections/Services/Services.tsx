@@ -1,9 +1,9 @@
 import React from 'react'
 import ServiceBox from './ServiceBox'
-import OcniOrdinaceIcon from '../../../../../public/images/Logo/OcniOrdinaceIcon'
-import OrtOptikaIcon from '../../../../../public/images/Logo/OrtOptikaIcon'
-import OptikaIcon from '../../../../../public/images/Logo/OptikaIcon'
-import ZrakovyTerapeutIcon from '../../../../../public/images/Logo/ZrakovyTerapeutIcon'
+import OcniOrdinaceIcon from '../../../../../public/images/Loga/OcniOrdinaceIcon'
+import OrtOptikaIcon from '../../../../../public/images/Loga/OrtOptikaIcon'
+import OptikaIcon from '../../../../../public/images/Loga/OptikaIcon'
+import ZrakovyTerapeutIcon from '../../../../../public/images/Loga/ZrakovyTerapeutIcon'
 
 // const ServicesList = [
 //     {

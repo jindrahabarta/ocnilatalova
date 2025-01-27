@@ -3,6 +3,7 @@ import { usePathname } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 import gsapInit from '../../animations/gsapInit'
 // import IconButton from '../Buttons/IconButton'
+
 import Link from 'next/link'
 import HamburgerIcon from './HamburgerIcon'
 import MobileNav from './MobileNav'
@@ -10,10 +11,11 @@ import MobileNav from './MobileNav'
 // import PhoneIcon from '../Icons/PhoneIcon'
 import NavLink from './NavLink'
 
-import OptikaIcon from '../../images/Logo/OptikaIcon'
-import OrtOptikaIcon from '../../images/Logo/OrtOptikaIcon'
-import OcniOrdinaceIcon from '../../images/Logo/OcniOrdinaceIcon'
-import ZrakovyTerapeutIcon from '../../images/Logo/ZrakovyTerapeutIcon'
+import OptikaIcon from '../../images/Loga/OptikaIcon'
+import OrtOptikaIcon from '../../images/Loga/OrtOptikaIcon'
+import OcniOrdinaceIcon from '../../images/Loga/OcniOrdinaceIcon'
+import ZrakovyTerapeutIcon from '../../images/Loga/ZrakovyTerapeutIcon'
+import OcniOrdinaceOctIcon from '../../images/Loga/OcniOrdinaceOctIcon'
 
 const Navigation = () => {
     const [isOpened, setIsOpened] = useState(false)
@@ -40,11 +42,17 @@ const Navigation = () => {
 
             <nav className='container pr-0 sm:pr-2 flex items-center justify-between bg-white relative'>
                 <div className='py-2'>
-                    <Link href={'/'}>
+                    {/* <Link href={'/'}>
                         <p className='text-base sm:text-lg'>Oční centrum</p>
                         <p className='text-2xl sm:text-3xl font-bold'>
                             Látalová
                         </p>
+                    </Link> */}
+
+                    <Link href={'/'}>
+                        <OcniOrdinaceIcon
+                            className={'w-40 sm:w-32 md:w-40 text-black'}
+                        ></OcniOrdinaceIcon>
                     </Link>
                 </div>
 
@@ -53,7 +61,7 @@ const Navigation = () => {
                         <NavLink
                             link={'/ocni-ordinace'}
                             icon={
-                                <OcniOrdinaceIcon className='w-24 md:w-32 lg:w-40 hover:text-white duration-200'></OcniOrdinaceIcon>
+                                <OcniOrdinaceOctIcon className='w-24 md:w-32 lg:w-40 hover:text-white duration-200'></OcniOrdinaceOctIcon>
                             }
                             path={path}
                             color={'green'}

@@ -24,14 +24,6 @@ const NavLink = ({ link, icon, color, path }: props) => {
                 }`}
             >
                 {icon}
-                {/* <Image
-                    src={img}
-                    alt={'img'}
-                    width={200}
-                    height={200}
-                    className='h-6 w-auto'
-                ></Image> */}
-                {/* <p className='font-semibold relative'>{text}</p> */}
             </Link>
         </li>
     )

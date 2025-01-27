@@ -12,13 +12,13 @@ export const metadata: Metadata = {
 
 const NotFound = () => {
     return (
-        <section className='h-screen flex flex-col lg:flex-row gap-10 items-center justify-center container'>
+        <section className='pt-24 h-screen flex flex-col lg:flex-row gap-10 items-center justify-center container'>
             <Image
-                className='select-none'
+                className='select-none flex-1'
                 src={E404Img}
                 alt='Error 404 Image'
             ></Image>
-            <div className='z-20'>
+            <div className='z-20 flex-[2]'>
                 <h1 className='text-3xl sm:text-4xl lg:text-5xl'>
                     Tato stránka neexistuje
                 </h1>
@@ -26,7 +26,7 @@ const NotFound = () => {
                 <Button
                     text={'Přejít zpátky domů'}
                     link={'/'}
-                    className='mt-4'
+                    className='mt-4 bg-blue border-blue sm:hover:bg-transparent self-end'
                 ></Button>
             </div>
         </section>

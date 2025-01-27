@@ -9,10 +9,10 @@ const MainContent = () => {
     return (
         <div className='container flex-1 flex flex-col md:flex-row gap-10 pt-32 md:pt-10'>
             <article className='heroPart opacity-0 translate-y-16 flex-1 flex flex-col justify-center items-start'>
-                <h1 className='text-6xl'>
-                    Oční centrum <em className=' not-italic'>Látalová</em>
+                <h1 className='text-6xl leading-none'>
+                    Oční ordinace a Ortoptika
                 </h1>
-                <h2 className='mt-4'>Postaráme se o váš zrak</h2>
+
                 <div className='mt-8 flex gap-4'>
                     <Button
                         text={'Služby'}

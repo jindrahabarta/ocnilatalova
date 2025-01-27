@@ -9,17 +9,16 @@ const Footer = () => {
         <footer className='mt-20'>
             <div className='container flex flex-wrap flex-col sm:flex-row justify-between gap-10  pb-4'>
                 <div className='flex flex-col justify-between'>
-                    <div>
-                        <Link href={'/'}>
-                            <Image
-                                src={'http://www.ocnilatalova.cz/img/logo.png'}
-                                alt='logo'
-                                width={150}
-                                height={100}
-                            ></Image>
-                        </Link>
-                        <h3 className='text-lg mt-2'>Oční klinika Látalová</h3>
-                    </div>
+                    <Link href={'/'} className='w-fit'>
+                        <Image
+                            src={'http://www.ocnilatalova.cz/img/logo.png'}
+                            alt='logo'
+                            width={150}
+                            height={100}
+                            className='w-40'
+                        ></Image>
+                    </Link>
+
                     <ul>
                         <li>
                             Tel:{' '}
