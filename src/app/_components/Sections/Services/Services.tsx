@@ -5,14 +5,6 @@ import OrtOptikaIcon from '../../../../../public/images/Loga/OrtOptikaIcon'
 import OptikaIcon from '../../../../../public/images/Loga/OptikaIcon'
 import ZrakovyTerapeutIcon from '../../../../../public/images/Loga/ZrakovyTerapeutIcon'
 
-// const ServicesList = [
-//     {
-//         name: 'Service1',
-//         text: 'lorem ipsum',
-//         image: <PhoneIcon></PhoneIcon>,
-//     },
-// ]
-
 const Services = () => {
     return (
         <section id='nase-sluzby' className='container pt-20'>
@@ -25,7 +17,7 @@ const Services = () => {
                         <OcniOrdinaceIcon className='w-full group-hover:text-white'></OcniOrdinaceIcon>
                     }
                     className='bg-green'
-                    link=''
+                    link='/ocni-ordinace'
                 ></ServiceBox>
                 <ServiceBox
                     title={'Oční\noptika'}
@@ -33,7 +25,7 @@ const Services = () => {
                         <OptikaIcon className='w-full group-hover:text-white'></OptikaIcon>
                     }
                     className='bg-blue'
-                    link=''
+                    link='/ocni-optika'
                 ></ServiceBox>
                 <ServiceBox
                     title={'Zrakový\nterapeut'}
@@ -41,7 +33,7 @@ const Services = () => {
                         <ZrakovyTerapeutIcon className='group-hover:text-white duration-200'></ZrakovyTerapeutIcon>
                     }
                     className='bg-orange'
-                    link=''
+                    link='/zrakovy-terapeut'
                 ></ServiceBox>
                 <ServiceBox
                     title={'Ortoptika'}
@@ -49,7 +41,7 @@ const Services = () => {
                         <OrtOptikaIcon className='w-[80%] group-hover:text-white'></OrtOptikaIcon>
                     }
                     className='bg-violet'
-                    link=''
+                    link='/ortoptika'
                 ></ServiceBox>
             </div>
         </section>

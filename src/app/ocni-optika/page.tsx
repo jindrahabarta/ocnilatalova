@@ -5,6 +5,9 @@ import Hero from '../../../public/components/Hero/Hero'
 import HeroImg1 from '@/../public/images/Hero/HeroBlue.webp'
 import HeroImg2 from '@/../public/images/Hero/HeroBackground.webp'
 import OpeningTable from '../../../public/components/Global/OpeningTable'
+import About from './Sections/About'
+import Services from './Sections/Services'
+import DeleniCocek from './Sections/DeleniCocek'
 
 export const metadata: Metadata = {
     title: 'Oční optika',
@@ -27,16 +30,22 @@ const OcniOptika = () => {
                 }}
                 button2={{
                     className: 'border-blue sm:hover:bg-blue',
-                    text: 'O nás',
-                    link: '#oteviraci-doba',
+                    text: 'O službě',
+                    link: '#o-nas',
                     variant: 'stroke',
                 }}
                 tableHover={'sm:group-hover:text-blue'}
             ></Hero>
 
+            <About></About>
+
+            <Services></Services>
+
+            <DeleniCocek></DeleniCocek>
+
             <OpeningTable
-                img={HeroImg1}
                 className='bg-blue/10'
+                contactClassName='sm:group-hover:text-blue'
                 table={{
                     mon: '8-12',
                     wed: '8-12',

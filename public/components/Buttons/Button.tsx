@@ -14,32 +14,26 @@ const Button = ({
 }) => {
     if (variant === 'filled' || !variant)
         return (
-            <button
+            <Link
+                href={link}
                 className={`sm:py-4 sm:px-6 py-1 px-3 shadow-lg text-xl md::text-2xl text-white font-semibold  border-2 rounded-full sm:hover:bg-transparent duration-200 group ${className}`}
-                aria-label={'Tlačítko:' + text}
             >
-                <Link
-                    href={link}
-                    className='gap-2 group-hover:text-white sm:group-hover:text-black'
-                >
+                <p className='gap-2 group-hover:text-white sm:group-hover:text-black'>
                     {text}
-                </Link>
-            </button>
+                </p>
+            </Link>
         )
 
     if (variant === 'stroke')
         return (
-            <button
+            <Link
                 className={`sm:py-4 sm:px-6 py-1 px-3 shadow-lg text-xl text-white font-semibold border-2 rounded-full sm:hover:text-black bg-transparent duration-200 group ${className}`}
-                aria-label={'Tlačítko:' + text}
+                href={link}
             >
-                <Link
-                    href={link}
-                    className='gap-2 text-black sm:group-hover:text-white'
-                >
+                <p className='gap-2 text-black sm:group-hover:text-white'>
                     {text}
-                </Link>
-            </button>
+                </p>
+            </Link>
         )
 }
 

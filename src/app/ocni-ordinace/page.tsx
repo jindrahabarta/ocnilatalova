@@ -63,8 +63,8 @@ const OcniOrdinace = () => {
                 title2={'Společně fungujeme již od roku 2013'}
             ></OurTeam>
             <OpeningTable
-                img={HeroImg1}
                 className='bg-green/10'
+                contactClassName='sm:group-hover:text-green'
                 table={{
                     mon: '8-12',
                     wed: '8-12',

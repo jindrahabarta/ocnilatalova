@@ -14,6 +14,8 @@ export default {
                 green: '#68d000',
                 blue: '#13a4d1',
                 violet: '#ff00de',
+
+                green500: '#00c951',
             },
         },
     },

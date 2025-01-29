@@ -4,9 +4,9 @@ import Image from 'next/image'
 const About = () => {
     return (
         <section id='o-nas' className='container pt-20'>
-            <h1 className='aboutUsPart opacity-0 translate-y-16'>O nás</h1>
+            <h1 className=''>O nás</h1>
             <div className='flex flex-col sm:flex-row gap-10 mt-10'>
-                <div className='flex-1 aboutUsPart opacity-0 translate-y-16'>
+                <div className='flex-1'>
                     <p>
                         MUDr. Olga Látalová má bohaté zkušenosti v oblasti
                         očního lékařství, zejména v pedooftalmologii,
@@ -32,7 +32,7 @@ const About = () => {
                         spektrum pacientů včetně těch s pohybovými omezeními.
                     </p>
                 </div>
-                <div className='flex-1 aboutUsPart opacity-0 translate-y-16'>
+                <div className='flex-1'>
                     <Image
                         src={
                             'http://www.ocnilatalova.cz/img/portfolio/foto1.jpg'

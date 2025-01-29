@@ -35,7 +35,6 @@ const ZrakovyTerapeut = () => {
             ></Hero>
 
             <OpeningTable
-                img={HeroImg1}
                 className='bg-orange/10'
                 table={{
                     mon: '8-12',
@@ -46,6 +45,7 @@ const ZrakovyTerapeut = () => {
                     sut: '8-12',
                     sun: 'Zavřeno',
                 }}
+                contactClassName={'sm:group-hover:text-orange'}
             ></OpeningTable>
         </div>
     )
