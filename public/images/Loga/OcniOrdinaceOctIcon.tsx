@@ -21,8 +21,8 @@ const OcniOrdinaceOctIcon = ({ className }: { className: string }) => {
                     <tspan
                         x={0}
                         y={0}
-                        fill='#a6e647'
-                        stroke='#a6e647'
+                        fill='#a6e648'
+                        stroke='#a6e648'
                         letterSpacing='0em'
                     >
                         {'O'}
