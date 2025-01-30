@@ -1,15 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
 
-import ImgGlasses from '@/../public/images/GlassesImg1.webp'
+import ImgGlasses from '@/../public/images/Ortoptika1.jpg'
 
 const About = () => {
     return (
         <section id='o-ortoptice' className='container pt-20'>
-            <h1 className=''>O ortoptice</h1>
             <div className='flex flex-col md:flex-row gap-10 mt-10'>
                 <div className='flex-1 '>
-                    <p>
+                    <h1 className=''>O ortoptice</h1>
+                    <p className='mt-4'>
                         Ortoptika je nelékařský obor zaměřený na neoperativní
                         léčbu šilhání, zlepšení zrakové ostrosti a obnovení
                         prostorového vidění. Název pochází z řeckých slov ortho

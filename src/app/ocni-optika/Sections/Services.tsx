@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import ImgGlasses from '@/../public/images/GlassesImg1.webp'
+import ImgGlasses from '@/../public/images/Ortoptika2.jpg'
 
 const Services = () => {
     return (
@@ -43,8 +43,8 @@ const Services = () => {
                         </li>
                     </ul>
                     <p className='text-base mt-4'>
-                        To vše a mnohem více naleznete v naší oční optice
-                        Olomouc.
+                        To vše a mnohem více naleznete v naší oční optice v
+                        Olomouci.
                     </p>
                 </div>
             </div>

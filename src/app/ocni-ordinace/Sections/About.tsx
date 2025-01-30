@@ -4,10 +4,10 @@ import Image from 'next/image'
 const About = () => {
     return (
         <section id='o-nas' className='container pt-20'>
-            <h1 className=''>O nás</h1>
             <div className='flex flex-col sm:flex-row gap-10 mt-10'>
                 <div className='flex-1'>
-                    <p>
+                    <h1 className=''>O nás</h1>
+                    <p className='mt-4'>
                         MUDr. Olga Látalová má bohaté zkušenosti v oblasti
                         očního lékařství, zejména v pedooftalmologii,
                         strabologii, ortoptice a léčbě binokulárních funkcí.

@@ -4,10 +4,10 @@ import Image from 'next/image'
 const About = () => {
     return (
         <section id='o-nas' className='container pt-20'>
-            <h1>Pár slov o naší klinice</h1>
             <div className='flex flex-col md:flex-row gap-10 mt-10'>
                 <div className='flex-1'>
-                    <p>
+                    <h1>Pár slov o naší klinice</h1>
+                    <p className='mt-4'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Porro a nihil sint suscipit ullam fugit unde numquam cum
                         impedit itaque molestias, incidunt aliquid ea quasi

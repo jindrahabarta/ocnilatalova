@@ -23,11 +23,13 @@ const NotFound = () => {
                     Tato stránka neexistuje
                 </h1>
                 <p className='mt-4'>Tuto stránku se nepodařilo najít</p>
-                <Button
-                    text={'Přejít zpátky domů'}
-                    link={'/'}
-                    className='mt-4 bg-blue border-blue sm:hover:bg-transparent self-end'
-                ></Button>
+                <div className='flex justify-end sm:justify-start'>
+                    <Button
+                        text={'Přejít zpátky domů'}
+                        link={'/'}
+                        className='mt-4 bg-blue border-blue sm:hover:bg-transparent '
+                    ></Button>
+                </div>
             </div>
         </section>
     )

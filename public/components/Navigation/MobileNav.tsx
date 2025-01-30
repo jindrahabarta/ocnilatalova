@@ -37,7 +37,7 @@ const MobileNav = ({ handleCloseMenu }: { handleCloseMenu: () => void }) => {
             </ul>
 
             <Button
-                className='select-none bg-blue '
+                className='select-none bg-blue border-blue'
                 text={'+420 585 227 940'}
                 link={'tel:585227940'}
             ></Button>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import ImgGlasses from '@/../public/images/GlassesImg1.webp'
+import ImgGlasses from '@/../public/images/Ortoptika2.jpg'
 
 const Pracoviste = () => {
     return (
@@ -20,7 +20,7 @@ const Pracoviste = () => {
                     <h1 className=''>Pracoviště</h1>
                     <p className='mt-4'>
                         Pracoviště ortoptiky poskytuje pleopticko - ortoptickou
-                        léčvu na doporučení očního lékaře - specialisty
+                        léčbu na doporučení očního lékaře - specialisty
                         strabologa s funkční licencí F20, který se zabývá léčbou
                         dětských zrakových vad, tupozrakostí / amblyopií,
                         šilháním a poruchami prostorových funkcí.

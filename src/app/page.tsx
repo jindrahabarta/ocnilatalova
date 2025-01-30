@@ -5,7 +5,7 @@ import OurTeam from '../../public/components/Global/OurTeam'
 import About from './_components/Sections/About/About'
 
 export const metadata: Metadata = {
-    title: 'Uvodni page | Oční látalová Olomouc',
+    title: 'Úvod | Oční látalová Olomouc',
     description: 'Oční optika olomouc',
 }
 

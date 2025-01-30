@@ -5,7 +5,6 @@ import Hero from '../../../public/components/Hero/Hero'
 import HeroImg1 from '@/../public/images/Hero/HeroViolet.webp'
 import HeroImg2 from '@/../public/images/Hero/HeroBackground.webp'
 import OpeningTable from '../../../public/components/Global/OpeningTable'
-import Cviceni from './Sections/Cviceni/Cviceni'
 import About from './Sections/About'
 import Pracoviste from './Sections/Pracoviste'
 import PoruchyVideni from './Sections/PoruchyVideni/PoruchyVideni'
@@ -41,8 +40,6 @@ const Ortoptika = () => (
         <Pracoviste></Pracoviste>
 
         <PoruchyVideni></PoruchyVideni>
-
-        <Cviceni></Cviceni>
 
         <OpeningTable
             className='bg-violet/10'

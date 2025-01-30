@@ -11,8 +11,29 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-    title: '%s | Oční látalová Olomouc',
-    description: 'Oční optika olomouc',
+    title: {
+        default: 'Oční látalová Olomouc',
+        template: '%s | Oční látalová Olomouc',
+    },
+    authors: [{ name: 'Motionlabs', url: 'https://motionlabs.cz' }],
+    description: '',
+    keywords: [
+        '3D Tisk',
+        'Zakázkový 3D tisk',
+        '3D tisk na zakázku',
+        'Printuj to',
+    ],
+    twitter: {
+        card: 'summary_large_image',
+    },
+    openGraph: {
+        title: 'Oční látalová Olomouc',
+        description:
+            'Poskytujeme kvalitní tisk s různými materiály pro rychlé prototypování a náhradní díly.',
+        images: [
+            'https://res.cloudinary.com/dlhgypwnv/image/upload/nahled1_e3ewta.png',
+        ],
+    },
 }
 
 export default function RootLayout({

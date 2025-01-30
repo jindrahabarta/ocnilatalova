@@ -5,6 +5,7 @@ import Hero from '../../../public/components/Hero/Hero'
 import HeroImg1 from '@/../public/images/Hero/HeroOrange.webp'
 import HeroImg2 from '@/../public/images/Hero/HeroBackground.webp'
 import OpeningTable from '../../../public/components/Global/OpeningTable'
+import About from './Sections/About'
 
 export const metadata: Metadata = {
     title: 'Zrakový terapeut',
@@ -33,6 +34,8 @@ const ZrakovyTerapeut = () => {
                 }}
                 tableHover={'sm:group-hover:text-orange'}
             ></Hero>
+
+            <About></About>
 
             <OpeningTable
                 className='bg-orange/10'

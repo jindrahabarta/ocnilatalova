@@ -7,7 +7,10 @@ const Footer = () => {
 
     return (
         <footer className='mt-20'>
-            <div className='container flex flex-wrap flex-col sm:flex-row justify-between gap-10  pb-4'>
+            <div className='container pb-8'>
+                <div className='h-[1px] w-full bg-black/10 rounded-full'></div>
+            </div>
+            <div className='container flex flex-wrap flex-col sm:flex-row justify-between gap-10 pb-4 '>
                 <div className='flex flex-col justify-between'>
                     <Link href={'/'} className='w-fit'>
                         <Image
@@ -94,7 +97,10 @@ const Footer = () => {
                     <Link href={'/'}>ocnilatalova.cz</Link>
                 </p>
                 <p className='text-sm'>
-                    Web vytvořilo studio <Link href={'/'}>Motion Labs</Link>
+                    Web vytvořilo studio{' '}
+                    <Link href={'https://motionlabs.cz/'} target='_blank'>
+                        Motion Labs
+                    </Link>
                 </p>
             </div>
         </footer>

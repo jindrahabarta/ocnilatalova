@@ -9,7 +9,6 @@ import Button from '../../../../public/components/Buttons/Button'
 
 export const metadata: Metadata = {
     title: 'Typy čoček',
-    description: 'Oční optika olomouc',
 }
 
 const Cocky = () => {
@@ -133,7 +132,7 @@ const Cocky = () => {
 
                 <div className='flex justify-between flex-wrap gap-4'>
                     <div>
-                        <h4>Přední design</h4>
+                        <h4 className='py-2'>Přední design</h4>
 
                         <ul>
                             <li className='text-green500'>
@@ -150,7 +149,7 @@ const Cocky = () => {
                     </div>
 
                     <div>
-                        <h4>Zadní design</h4>
+                        <h4 className='py-2'>Zadní design</h4>
 
                         <ul>
                             <li className='text-green500'>
@@ -175,7 +174,7 @@ const Cocky = () => {
                     </div>
 
                     <div>
-                        <h4>Individuální design</h4>
+                        <h4 className='py-2'>Individuální design</h4>
 
                         <ul>
                             <li className='text-green500'>
@@ -218,7 +217,7 @@ const Cocky = () => {
 
                 <div className='flex flex-wrap gap-10 mt-4'>
                     <div>
-                        <h4>Výhody</h4>
+                        <h4 className='py-2'>Výhody</h4>
 
                         <ul>
                             <li className='text-green500'>
@@ -232,7 +231,7 @@ const Cocky = () => {
                     </div>
 
                     <div>
-                        <h4>Nevýhody</h4>
+                        <h4 className='py-2'>Nevýhody</h4>
 
                         <ul>
                             <li className='text-red-600'>
@@ -326,6 +325,147 @@ const Cocky = () => {
             </section>
 
             <h1 className=''>Materiál čoček</h1>
+
+            <section className='py-10 sm:py-16'>
+                <h2>Nerozbitná skla Trilogy</h2>
+
+                <h3 className='py-3'>Vlastnosti</h3>
+
+                <div className='flex justify-between flex-col md:flex-row gap-4'>
+                    <div>
+                        <h4>Pevné a bezpečné</h4>
+                        <ul className='list-disc pl-8'>
+                            <li className=''>
+                                Odolnost proti nárazu a vysokému mechanickému
+                                tlaku
+                            </li>
+
+                            <li className=''>
+                                Ochrana očí před poraněním (např. při sportu)
+                            </li>
+
+                            <li className=''>100% ochrana proti UV záření</li>
+                            <li>Odolnost proti chemikáliím</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4>Lehké a tenké</h4>
+
+                        <ul className='list-disc pl-8'>
+                            <li className=''>
+                                Vyrobeny z ultralehkého materiálu
+                            </li>
+
+                            <li className=''>Plavou na vodě</li>
+                            <li className=''>
+                                Eliminují otlaky, téměř neznatelné při nošení
+                            </li>
+                            <li className=''>Nejlehčí čočky na trhu</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4>Přesná optika</h4>
+
+                        <ul className='list-disc pl-8'>
+                            <li className=''>
+                                Speciálně vyvinutý materiál pro brýlovou optiku
+                            </li>
+
+                            <li className=''>Umožňuje precizní výrobu</li>
+                            <li>
+                                Excelentní optická kvalita pro ostřejší vidění
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section className='py-10 sm:py-16'>
+                <h2>Plastové brýlové čočky</h2>
+
+                <ul className='list-disc mt-4 pl-8'>
+                    <li className=''>
+                        Moderní a nejrozšířenější materiál brýlových čoček
+                    </li>
+
+                    <li className=''>První uvedení na trh v roce 1959</li>
+                    <li>Stále rostoucí popularita díky výhodám</li>
+                    <li>Dostupné v různých variantách materiálů a ztenčení</li>
+                </ul>
+
+                <div className='flex flex-wrap gap-10 mt-4'>
+                    <div>
+                        <h4 className='py-2'>Výhody</h4>
+
+                        <ul>
+                            <li className='text-green500'>
+                                + Perfektní mechanická odolnost proti rozbití
+                            </li>
+                            <li className='text-green500'>
+                                + O polovinu lehčí než minerální čočky
+                            </li>
+                            <li className='text-green500'>
+                                + Odolné proti poškrábání (s povrchovými
+                                úpravami)
+                            </li>
+                            <li className='text-green500'>+ Barvitelné</li>
+                            <li className='text-green500'>+ Vysoký UV filtr</li>
+                            <li className='text-green500'>
+                                + Vynikající optické vlastnosti
+                            </li>
+                            <li className='text-green500'>
+                                + Nezbytné pro vázané a vrtané brýle
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 className='py-2'>Nevýhody</h4>
+
+                        <ul>
+                            <li className='text-red-600'>
+                                - Méně odolné proti poškrábání (bez povrchových
+                                úprav)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section className='py-10 sm:py-16'>
+                <h2>Tribid - Odolná a lehká vysokoindexová čočka</h2>
+
+                <ul className='list-disc mt-4 pl-8'>
+                    <li className=''>Revoluční technologický objev</li>
+
+                    <li className=''>
+                        Kombinace vlastností vysokoindexových materiálů a
+                        nerozbitného TRIVEXU
+                    </li>
+                    <li>Lehkost, tenkost a vysoká odolnost</li>
+                    <li>
+                        5× vyšší odolnost proti rozbití než ostatní
+                        vysokoindexové materiály
+                    </li>
+                    <li>Vynikající optické vlastnosti</li>
+
+                    <li>100% ochrana proti UV záření</li>
+                </ul>
+            </section>
+
+            <h1 className=''>Antireflexní úpravy</h1>
+
+            <section className='py-10 sm:py-16'>
+                <h2>Titan</h2>
+                <p>Excelentní antireflexní úprava</p>
+            </section>
+
+            <section className='py-10 sm:py-16'>
+                <h2>Blue protect</h2>
+                <p>Úprava chránící zrak před modrým světlem</p>
+            </section>
         </div>
     )
 }

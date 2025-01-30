@@ -6,10 +6,10 @@ import ImgGlasses from '@/../public/images/GlassesImg1.webp'
 const About = () => {
     return (
         <section id='o-nas' className='container pt-20'>
-            <h1 className=''>Oční optika</h1>
             <div className='flex flex-col md:flex-row gap-10 mt-10'>
                 <div className='flex-1'>
-                    <p>
+                    <h1 className=''>Oční optika</h1>
+                    <p className='mt-4'>
                         Naše optika se jako jedna z mála v Olomouci specializuje
                         na děti. Nabízíme široký sortiment brýlí i obrub pro
                         děti všech věkových kategorií. Velkou výhodou je, že
