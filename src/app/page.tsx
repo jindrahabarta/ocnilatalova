@@ -6,7 +6,6 @@ import About from './_components/Sections/About/About'
 
 export const metadata: Metadata = {
     title: 'Úvod | Oční Látalová Olomouc',
-    description: 'Oční optika olomouc',
 }
 
 export default function Home() {

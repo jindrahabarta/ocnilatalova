@@ -14,7 +14,8 @@ import ImgGlasses from '@/../public/images/Ortoptika2.jpg'
 
 export const metadata: Metadata = {
     title: 'Oční optika',
-    description: 'Oční optika olomouc',
+    description:
+        'Oční optika Látalová v Olomouci: specializace na děti, široký výběr brýlí, měření dioptrií, profesionální péče, spolupráce s dětským lékařem, příjemné prostředí.',
 }
 
 const OcniOptika = () => {

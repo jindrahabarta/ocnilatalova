@@ -9,6 +9,8 @@ import Button from '../../../../public/components/Buttons/Button'
 
 export const metadata: Metadata = {
     title: 'Typy čoček',
+    description:
+        'Optika Látalová Olomouc nabízí jednoohniskové, progresivní, bifokální a interiérové čočky, nerozbitná skla Trilogy, plastové čočky a vysokoindexové čočky Tribid.',
 }
 
 const Cocky = () => {

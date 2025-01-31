@@ -10,6 +10,8 @@ import mrizka from '@/../public/images/OrtoptickeCviceni/mrizka na cteni.jpeg'
 
 export const metadata: Metadata = {
     title: 'Ortoptické cvičení',
+    description:
+        'Ortoptika Látalová v Olomouci: specializace na neoperativní zlepšení binokulárního vidění u dětí, ortoptická cvičení, spolupráce lékaře a ortoptisty.',
 }
 
 const Cviceni = () => {

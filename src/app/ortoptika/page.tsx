@@ -11,7 +11,8 @@ import PoruchyVideni from './Sections/PoruchyVideni/PoruchyVideni'
 
 export const metadata: Metadata = {
     title: 'Ortoptika',
-    description: 'Oční optika olomouc',
+    description:
+        'Ortoptika Látalová v Olomouci: specializace na neoperativní zlepšení binokulárního vidění u dětí, ortoptická cvičení, spolupráce lékaře a ortoptisty.',
 }
 
 const Ortoptika = () => (

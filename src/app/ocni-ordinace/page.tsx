@@ -13,7 +13,8 @@ import OcniOrdinaceImg from '@/../public/images/OcniOrdinace.webp'
 
 export const metadata: Metadata = {
     title: 'Oční ordinace',
-    description: 'Oční optika olomouc',
+    description:
+        'Oční ordinace Látalová v Olomouci: komplexní péče o zrak, zkušený tým, ortoptická cvičení, moderní přístroje, bezbariérový přístup, specializace na děti.',
 }
 
 const OcniOrdinace = () => {

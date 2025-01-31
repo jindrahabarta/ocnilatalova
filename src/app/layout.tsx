@@ -16,7 +16,8 @@ export const metadata: Metadata = {
         template: '%s | Oční Látalová Olomouc',
     },
     authors: [{ name: 'Motionlabs', url: 'https://motionlabs.cz' }],
-    description: '',
+    description:
+        'Oční centrum Látalová v Olomouci nabízí profesionální péči o zrak, moderní diagnostiku a léčbu očních onemocnění s individuálním přístupem k pacientům.',
     keywords: [
         'Oční klinika',
         'Oční Olomouc',
@@ -31,9 +32,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Oční látalová Olomouc',
         description: '',
-        images: [
-            'https://res.cloudinary.com/dlhgypwnv/image/upload/nahled1_e3ewta.png',
-        ],
+        images: [''],
     },
 }
 
