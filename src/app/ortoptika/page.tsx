@@ -29,7 +29,7 @@ const Ortoptika = () => (
             button2={{
                 className: ' border-violet sm:hover:bg-violet',
                 text: 'O ortoptice',
-                link: '#o-ortoptice',
+                link: '#o-nas',
                 variant: 'stroke',
             }}
             tableHover={'sm:group-hover:text-violet'}

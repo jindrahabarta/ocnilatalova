@@ -5,9 +5,9 @@ import ImgGlasses from '@/../public/images/Ortoptika2.jpg'
 
 const Pracoviste = () => {
     return (
-        <section id='pracoviste' className='container pt-20'>
+        <section id='o-nas' className='container pt-20'>
             <div className='flex flex-col-reverse md:flex-row gap-10 mt-10'>
-                <div className='flex-1'>
+                <div className='flex-1 aboutUsPart translate-y-16 opacity-0'>
                     <Image
                         src={ImgGlasses}
                         alt={'Obrázek o nás'}
@@ -16,7 +16,7 @@ const Pracoviste = () => {
                         className='rounded-xl'
                     ></Image>
                 </div>
-                <div className='flex-1 '>
+                <div className='flex-1 aboutUsPart translate-y-16 opacity-0'>
                     <h1 className=''>Pracoviště</h1>
                     <p className='mt-4'>
                         Pracoviště ortoptiky poskytuje pleopticko - ortoptickou

@@ -6,8 +6,11 @@ import HeroImg1 from '@/../public/images/Hero/HeroBlue.webp'
 import HeroImg2 from '@/../public/images/Hero/HeroBackground.webp'
 import OpeningTable from '../../../public/components/Global/OpeningTable'
 import About from './Sections/About'
-import Services from './Sections/Services'
+
 import DeleniCocek from './Sections/DeleniCocek'
+import Services from '../../../public/components/Global/Services'
+
+import ImgGlasses from '@/../public/images/Ortoptika2.jpg'
 
 export const metadata: Metadata = {
     title: 'Oční optika',
@@ -39,7 +42,32 @@ const OcniOptika = () => {
 
             <About></About>
 
-            <Services></Services>
+            <Services
+                topText={'Poskytujeme tyto služby'}
+                image={ImgGlasses}
+                bottomText=' To vše a mnohem více naleznete v naší oční optice v
+                        Olomouci.'
+            >
+                <ul className='list-disc mt-4 pl-4'>
+                    <li>Nabízíme široký sortiment brýlových obrub</li>
+                    <li>Specializujeme se na dětské brýlové obruby</li>
+                    <li>Úzká spolupráce oční optiky s lékařem</li>
+                    <li>
+                        Speciální brýle a optické pomůcky v rámci komplexní
+                        léčby tupozrakosti a šilhání
+                    </li>
+                    <li>
+                        Možnost měření dioptríí a nitroočního tlaku
+                        kvalifikovaným zdravotnickým personálem na vedlejším
+                        pracovišti
+                    </li>
+                    <li>Aplikujeme kontaktní čočky</li>
+                    <li>
+                        Kvalitní sluneční brýle nejen pro dospělé, ale i pro
+                        děti
+                    </li>
+                </ul>
+            </Services>
 
             <DeleniCocek></DeleniCocek>
 

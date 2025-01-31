@@ -16,7 +16,7 @@ html {
     max-width: 1300px;
     margin: auto;
 
-    @apply sm:px-6 px-4;
+    @apply sm:px-6 px-2;
 }
 
 p {

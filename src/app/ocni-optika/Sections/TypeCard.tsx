@@ -10,7 +10,7 @@ interface props {
 
 const TypeCard = ({ title, description, pros, cons }: props) => {
     return (
-        <div className='border-black/20 border bg-white/50 rounded-xl p-6 shadow-md'>
+        <div className='border-black/20 border bg-white/50 rounded-xl p-6 shadow-md opacity-0 staggerAnimationPart translate-y-16'>
             <h3>{title}</h3>
             <p className='mt-2'>{description}</p>
 

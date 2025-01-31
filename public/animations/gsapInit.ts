@@ -50,28 +50,93 @@ const gsapInit = (path: string) => {
         })
     }
 
-    if (path === '/ocni-ordinace') {
-        //OCNI ORDINACE
-
-        gsap.to('.aboutUsPart', {
-            opacity: 1,
-            translateY: 0,
-            duration: 0.4,
-            stagger: 0.1,
-            ease: 'power1.out',
-        })
-
-        gsap.to('.servicesPart', {
+    //SERVICES
+    if (
+        path === '/ocni-ordinace' ||
+        path === '/zrakovy-terapeut' ||
+        path === '/ocni-optika'
+    ) {
+        const servicesTl = gsap.timeline({
+            defaults: { ease: 'power1.inOut' },
+            paused: true,
             scrollTrigger: {
                 trigger: '#services',
-                start: 'top center',
-                end: 'bottom center',
+                start: 'top bottom',
+                end: 'bottom top',
+                scrub: 1,
             },
-            opacity: 1,
-            translateY: 0,
-            duration: 0.4,
-            stagger: 0.1,
-            ease: 'power1.out',
+        })
+
+        servicesTl.to('.servicesBg', {
+            scale: 1.1,
+        })
+    }
+
+    //ABOUT
+    if (
+        path === '/ocni-ordinace' ||
+        path === '/zrakovy-terapeut' ||
+        path === '/ocni-optika' ||
+        path === '/ortoptika'
+    ) {
+        ScrollTrigger.create({
+            trigger: '#o-nas',
+            start: 'top center',
+            end: 'bottom center',
+
+            onEnter: () => {
+                gsap.to('.aboutUsPart', {
+                    opacity: 1,
+                    translateY: 0,
+                    duration: 0.4,
+                    stagger: 0.1,
+                    ease: 'power1.out',
+                })
+            },
+        })
+    }
+
+    //OPENINGTABLE
+    if (
+        path === '/ocni-ordinace' ||
+        path === '/zrakovy-terapeut' ||
+        path === '/ocni-optika' ||
+        path === '/ortoptika'
+    ) {
+        ScrollTrigger.create({
+            trigger: '#oteviraci-doba',
+            start: 'top center',
+            end: 'bottom center',
+
+            onEnter: () => {
+                gsap.to('.openingTablePart', {
+                    opacity: 1,
+                    translateY: 0,
+                    duration: 0.6,
+                    stagger: 0.1,
+                    ease: 'power1.out',
+                })
+            },
+        })
+    }
+
+    //OPENINGTABLE
+
+    if (path === '/ortoptika' || path === '/ocni-optika') {
+        ScrollTrigger.create({
+            trigger: '.staggerAnimationPart',
+            start: 'top center',
+            end: 'top center',
+
+            onEnter: () => {
+                gsap.to('.staggerAnimationPart', {
+                    opacity: 1,
+                    translateY: 0,
+                    duration: 0.6,
+                    stagger: 0.1,
+                    ease: 'power1.out',
+                })
+            },
         })
     }
 }

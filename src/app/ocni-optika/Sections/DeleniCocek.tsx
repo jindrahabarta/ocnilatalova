@@ -11,7 +11,9 @@ const DeleniCocek = () => {
 
             <section className=' bg-blue/20'>
                 <div className='container'>
-                    <h2>Typy čoček</h2>
+                    <h2 className='opacity-0 staggerAnimationPart'>
+                        Typy čoček
+                    </h2>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-8'>
                         <TypeCard
@@ -71,7 +73,7 @@ const DeleniCocek = () => {
                     </div>
                 </div>
 
-                <div className='mt-8 flex flex-col gap-2 justify-center items-center'>
+                <div className='mt-8 flex flex-col gap-2 justify-center items-center opacity-0 staggerAnimationPart translate-y-16'>
                     <p>Více o čočkách se můžete dozvědět zde</p>
 
                     <Button

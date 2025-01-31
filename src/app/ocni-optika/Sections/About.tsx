@@ -5,9 +5,9 @@ import ImgGlasses from '@/../public/images/GlassesImg1.webp'
 
 const About = () => {
     return (
-        <section id='o-nas' className='container pt-20'>
+        <section id='o-nas' className='container py-20'>
             <div className='flex flex-col md:flex-row gap-10 mt-10'>
-                <div className='flex-1'>
+                <div className='flex-1 aboutUsPart translate-y-16 opacity-0'>
                     <h1 className=''>Oční optika</h1>
                     <p className='mt-4'>
                         Naše optika se jako jedna z mála v Olomouci specializuje
@@ -34,7 +34,7 @@ const About = () => {
                         10.
                     </p>
                 </div>
-                <div className='flex-1'>
+                <div className='flex-1 aboutUsPart translate-y-16 opacity-0'>
                     <Image
                         src={ImgGlasses}
                         alt={'Obrázek o nás'}

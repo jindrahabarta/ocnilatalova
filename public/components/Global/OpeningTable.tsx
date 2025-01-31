@@ -23,7 +23,7 @@ const OpeningTable = ({ table, className, contactClassName }: props) => {
     return (
         <section id='oteviraci-doba' className='container'>
             <div className='flex flex-col md:flex-row gap-20 mt-20'>
-                <div className='flex-1'>
+                <div className='flex-1 openingTablePart translate-y-16 opacity-0'>
                     <h2>Otevírací doba</h2>
                     <table className='w-full mt-8 text-xl'>
                         <tbody>
@@ -86,7 +86,7 @@ const OpeningTable = ({ table, className, contactClassName }: props) => {
                         </tbody>
                     </table>
                 </div>
-                <div className='flex-1'>
+                <div className='flex-1 openingTablePart translate-y-16 opacity-0'>
                     <h2>Kontakt</h2>
 
                     <ul className='mt-8'>

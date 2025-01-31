@@ -11,8 +11,12 @@ const PoruchyVideni = () => {
 
             <section className='bg-violet/20 py-16'>
                 <div className='container'>
-                    <h1>Poruchy vidění</h1>
-                    <p className='sm:text-lg py-2'>Dělíme na 3 stupně</p>
+                    <h1 className='staggerAnimationPart opacity-0'>
+                        Poruchy vidění
+                    </h1>
+                    <p className='sm:text-lg py-2 staggerAnimationPart opacity-0'>
+                        Dělíme na 3 stupně
+                    </p>
 
                     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8'>
                         <TypeCard
@@ -42,7 +46,7 @@ const PoruchyVideni = () => {
                 </div>
             </section>
             <section className='bg-violet/20 '>
-                <div className='container'>
+                <div className='container staggerAnimationPart opacity-0 translate-y-16'>
                     <p className='sm:text-lg py-2'>
                         <strong> Ortoptická cvičení </strong>
                         pomáhají zlepšit binokulární vidění a léčbu šilhání.
