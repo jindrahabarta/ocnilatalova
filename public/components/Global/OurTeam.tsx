@@ -46,6 +46,9 @@ const OurTeam = ({ team, title, title2, className, background }: props) => {
                     </div>
                 </div>
             </div>
+            <section
+                className={`w-full h-20 bg-gradient-to-b ${background.transition}`}
+            ></section>
         </section>
     )
 }

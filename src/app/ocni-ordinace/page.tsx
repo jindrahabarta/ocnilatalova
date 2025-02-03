@@ -9,7 +9,7 @@ import HeroImg2 from '@/../public/images/Hero/HeroBackground.webp'
 import OpeningTable from '../../../public/components/Global/OpeningTable'
 import Services from '../../../public/components/Global/Services'
 
-import OcniOrdinaceImg from '@/../public/images/OcniOrdinace.webp'
+import OcniOrdinaceImg2 from '@/../public/images/OcniOrdinace2.webp'
 
 export const metadata: Metadata = {
     title: 'Oční ordinace',
@@ -34,7 +34,7 @@ const OcniOrdinace = () => {
                 button2={{
                     className: 'border-green sm:hover:bg-green',
                     text: 'O nás',
-                    link: '#oteviraci-doba',
+                    link: '#o-nas',
                     variant: 'stroke',
                 }}
                 tableHover={'sm:group-hover:text-green'}
@@ -46,7 +46,7 @@ const OcniOrdinace = () => {
                 topText={
                     'V našem specializovaném lékařském pracovišti poskytuje metyto služby:'
                 }
-                image={OcniOrdinaceImg}
+                image={OcniOrdinaceImg2}
                 bottomText=' To vše a mnohem více naleznete v naší oční optice v
                         Olomouci.'
             >

@@ -7,7 +7,7 @@ import OpeningTable from '../../../public/components/Global/OpeningTable'
 import About from './Sections/About'
 import Services from '../../../public/components/Global/Services'
 
-import ImgGlasses from '@/../public/images/Ortoptika2.jpg'
+import ZrakovaTerapie from '@/../public/images/ZrakovaTerapie.jpg'
 
 export const metadata: Metadata = {
     title: 'Zrakový terapeut',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const ZrakovyTerapeut = () => {
     return (
-        <div className='w-full flex flex-col'>
+        <div className='w-full'>
             <Hero
                 title={'Zrakový terapeut'}
                 className='bg-orange/20'
@@ -30,8 +30,8 @@ const ZrakovyTerapeut = () => {
                 }}
                 button2={{
                     className: ' border-orange sm:hover:bg-orange',
-                    text: 'O nás',
-                    link: '#oteviraci-doba',
+                    text: 'O Zrakové terapii',
+                    link: '#o-nas',
                     variant: 'stroke',
                 }}
                 tableHover={'sm:group-hover:text-orange'}
@@ -41,7 +41,7 @@ const ZrakovyTerapeut = () => {
 
             <Services
                 topText={'Poskytujeme tyto služby'}
-                image={ImgGlasses}
+                image={ZrakovaTerapie}
                 bottomText=' To vše a mnohem více naleznete v naší oční optice v
                         Olomouci.'
             >

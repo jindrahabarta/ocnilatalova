@@ -8,7 +8,7 @@ interface props {
 
 const TypeCard = ({ title, description, number }: props) => {
     return (
-        <div className='flex gap-4 border-black/20 border bg-white/50 rounded-xl p-6 shadow-md opacity-0 translate-x-16 staggerAnimationPart'>
+        <div className='flex gap-4 border-black/20 border bg-white/50 rounded-xl p-6 shadow-md opacity-0 md:translate-x-16 staggerAnimationPart'>
             <div className='text-[3rem] sm:text-[4rem] leading-[1em] font-bold text-violet/30'>
                 {number}.
             </div>

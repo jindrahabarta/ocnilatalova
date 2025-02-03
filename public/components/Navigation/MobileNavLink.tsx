@@ -12,7 +12,7 @@ const MobileNavLink = ({
 }) => {
     return (
         <li className='select-none' onClick={handleClose}>
-            <Link href={link} className='font-bold text-xl py-1 block'>
+            <Link href={link} className='font-bold text-2xl py-1 block'>
                 {text}
             </Link>
         </li>

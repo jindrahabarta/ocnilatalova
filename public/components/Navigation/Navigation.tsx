@@ -36,7 +36,7 @@ const Navigation = () => {
     return (
         <header
             id='navigation'
-            className='fixed z-50 top-0 left-0 w-screen bg-white shadow-lg border-b border-black/30'
+            className='fixed z-50 top-0 left-0 w-screen bg-white shadow-lg border-b translate-y-0 border-black/30'
         >
             <MobileNav handleCloseMenu={openMenu}></MobileNav>
 

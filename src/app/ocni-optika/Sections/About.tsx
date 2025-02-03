@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import ImgGlasses from '@/../public/images/GlassesImg1.webp'
+import OcniOptikaImg from '@/../public/images/OcniOptikaPhoto.jpg'
 
 const About = () => {
     return (
@@ -36,7 +36,7 @@ const About = () => {
                 </div>
                 <div className='flex-1 aboutUsPart translate-y-16 opacity-0'>
                     <Image
-                        src={ImgGlasses}
+                        src={OcniOptikaImg}
                         alt={'Obrázek o nás'}
                         width={1000}
                         height={1000}

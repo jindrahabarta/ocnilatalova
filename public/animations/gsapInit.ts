@@ -7,6 +7,12 @@ const gsapInit = (path: string) => {
 
     //Global Animations
 
+    gsap.set('#navigation', {
+        opacity: 1,
+        translateY: '0',
+        pointerEvents: 'auto',
+    })
+
     const navScrollTl = gsap
         .timeline({
             paused: true,

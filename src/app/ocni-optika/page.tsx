@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 const OcniOptika = () => {
     return (
-        <div className='w-full flex flex-col'>
+        <div className='w-full '>
             <Hero
                 title={'Oční Optika'}
                 className='bg-blue/20'
@@ -34,7 +34,7 @@ const OcniOptika = () => {
                 }}
                 button2={{
                     className: 'border-blue sm:hover:bg-blue',
-                    text: 'O službě',
+                    text: 'O Oční optice',
                     link: '#o-nas',
                     variant: 'stroke',
                 }}
