@@ -456,18 +456,13 @@ const Cocky = () => {
                     <li>100% ochrana proti UV záření</li>
                 </ul>
             </section>
-
-            <h1 className=''>Antireflexní úpravy</h1>
-
-            <section className='py-10 sm:py-16'>
-                <h2>Titan</h2>
-                <p>Excelentní antireflexní úprava</p>
-            </section>
-
-            <section className='py-10 sm:py-16'>
-                <h2>Blue protect</h2>
-                <p>Úprava chránící zrak před modrým světlem</p>
-            </section>
+            <div className='flex justify-center'>
+                <Button
+                    text={'Přejít zpět'}
+                    link={'/ocni-optika'}
+                    className='bg-blue border-blue'
+                ></Button>
+            </div>
         </div>
     )
 }

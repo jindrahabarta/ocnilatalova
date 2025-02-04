@@ -7,6 +7,7 @@ import cheiroskop from '@/../public/images/OrtoptickeCviceni/cheiroskop.jpg'
 import zrcadlovyStereosk from '@/../public/images/OrtoptickeCviceni/zrcadlovy stereoskop.jpg'
 import remyhoSeparator from '@/../public/images/OrtoptickeCviceni/remyho separator.png'
 import mrizka from '@/../public/images/OrtoptickeCviceni/mrizka na cteni.jpeg'
+import Button from '../../../../public/components/Buttons/Button'
 
 export const metadata: Metadata = {
     title: 'Ortoptické cvičení',
@@ -156,6 +157,14 @@ const Cviceni = () => {
                 binokulární vidění je zásadní pro hloubkové vnímání, koordinaci
                 pohybu a celkovou orientaci v prostoru.
             </p>
+
+            <div className='flex justify-center mt-20'>
+                <Button
+                    text={'Přejít zpět'}
+                    link={'/ortoptika'}
+                    className='bg-violet border-violet'
+                ></Button>
+            </div>
         </div>
     )
 }
