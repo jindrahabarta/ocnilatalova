@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import ImgGlasses from '@/../public/images/Ortoptika2.jpg'
+import Okluzor from '@/../public/images/okluzor.webp'
 
 const Pracoviste = () => {
     return (
@@ -9,7 +9,7 @@ const Pracoviste = () => {
             <div className='flex flex-col-reverse md:flex-row gap-10 mt-10'>
                 <div className='flex-1 aboutUsPart translate-y-16 opacity-0'>
                     <Image
-                        src={ImgGlasses}
+                        src={Okluzor}
                         alt={'Obrázek o nás'}
                         width={1000}
                         height={1000}

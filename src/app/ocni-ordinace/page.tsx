@@ -51,22 +51,41 @@ const OcniOrdinace = () => {
                         Olomouci.'
             >
                 <ul className='list-disc mt-4 pl-4'>
-                    <li>Nabízíme široký sortiment brýlových obrub</li>
-                    <li>Specializujeme se na dětské brýlové obruby</li>
-                    <li>Úzká spolupráce oční optiky s lékařem</li>
                     <li>
-                        Speciální brýle a optické pomůcky v rámci komplexní
-                        léčby tupozrakosti a šilhání
+                        Vyšetření na <strong>OCT přístroji</strong> více
+                        informací zde
                     </li>
                     <li>
-                        Možnost měření dioptríí a nitroočního tlaku
-                        kvalifikovaným zdravotnickým personálem na vedlejším
-                        pracovišti
+                        Vyšetření, sledování a léčba pacientů s{' '}
+                        <strong>očním onemocněním</strong>
+                        (katarakta, glaukom, záněty, refrakční vady a jiné),
+                        preventivní kontrolní vyšetření u pacientů s rizikem
+                        vzniku očního onemocnění, vyšetření u indikovaných
+                        pacientů se <strong>systémovým onemocněním</strong>
+                        (pacienti s <strong>cukrovkou</strong>,{' '}
+                        <strong>vysokým krevním tlakem</strong>, s{' '}
+                        <strong>endokrinní</strong> či{' '}
+                        <strong>autoimunitní chorobou</strong> a jinými)
                     </li>
-                    <li>Aplikujeme kontaktní čočky</li>
                     <li>
-                        Kvalitní sluneční brýle nejen pro dospělé, ale i pro
-                        děti
+                        <strong>Ortoptika</strong> - zabývá se poruchami{' '}
+                        <strong>zrakových funkcí</strong>
+                        spojených se změnami <strong>postavení očí</strong>
+                        (tj. šilháním - <strong>strabismem</strong>) a{' '}
+                        <strong>tupozrakostí</strong>
+                        (amblyopií), poruchy{' '}
+                        <strong>prostorových funkcí</strong> (binokularita) -
+                        diagnostika těchto poruch, terapie pomocí komplexních
+                        <strong>pleopticko-ortoptických cvičení</strong>
+                    </li>
+                    <li>
+                        Práce se <strong>zrakově postiženými</strong>
+                    </li>
+                    <li>
+                        <strong>Kontaktologie</strong> – kontaktní čočky
+                    </li>
+                    <li>
+                        <strong>Zraková edukace</strong>
                     </li>
                 </ul>
             </Services>

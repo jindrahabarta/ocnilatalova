@@ -46,23 +46,13 @@ const ZrakovyTerapeut = () => {
                         Olomouci.'
             >
                 <ul className='list-disc mt-4 pl-4'>
-                    <li>Nabízíme široký sortiment brýlových obrub</li>
-                    <li>Specializujeme se na dětské brýlové obruby</li>
-                    <li>Úzká spolupráce oční optiky s lékařem</li>
-                    <li>
-                        Speciální brýle a optické pomůcky v rámci komplexní
-                        léčby tupozrakosti a šilhání
-                    </li>
-                    <li>
-                        Možnost měření dioptríí a nitroočního tlaku
-                        kvalifikovaným zdravotnickým personálem na vedlejším
-                        pracovišti
-                    </li>
-                    <li>Aplikujeme kontaktní čočky</li>
-                    <li>
-                        Kvalitní sluneční brýle nejen pro dospělé, ale i pro
-                        děti
-                    </li>
+                    <li>Služba ...</li>
+                    <li>Služba ...</li>
+                    <li>Služba ...</li>
+                    <li>Služba ...</li>
+                    <li>Služba ...</li>
+                    <li>Služba ...</li>
+                    <li>Služba ...</li>
                 </ul>
             </Services>
 
