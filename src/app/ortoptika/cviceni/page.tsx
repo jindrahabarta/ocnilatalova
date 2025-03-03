@@ -2,11 +2,11 @@ import { Metadata } from 'next'
 import React from 'react'
 import Pristroj from '../_components/Pristroj'
 
-import synoptofor from '@/../public/images/OrtoptickeCviceni/Synoptofor.jpeg'
+import synoptofor from '@/../public/images/OrtoptickeCviceni/Synoptofor.jpg'
 import cheiroskop from '@/../public/images/OrtoptickeCviceni/cheiroskop.jpg'
-import zrcadlovyStereosk from '@/../public/images/OrtoptickeCviceni/Stereoskop.jpeg'
+import zrcadlovyStereosk from '@/../public/images/OrtoptickeCviceni/Stereoskop.jpg'
 import remyhoSeparator from '@/../public/images/OrtoptickeCviceni/remyho separator.png'
-import mrizka from '@/../public/images/OrtoptickeCviceni/mrizka na cteni.jpeg'
+import mrizka from '@/../public/images/OrtoptickeCviceni/mrizka na cteni.jpg'
 import Button from '../../../../public/components/Buttons/Button'
 
 export const metadata: Metadata = {
