@@ -10,7 +10,7 @@ import About from './Sections/About'
 import DeleniCocek from './Sections/DeleniCocek'
 import Services from '../../../public/components/Global/Services'
 
-import ImgGlasses from '@/../public/images/Ortoptika2.jpg'
+import ImgGlasses from '@/../public/images/OcniOptika/bryle.jpeg'
 
 export const metadata: Metadata = {
     title: 'Oční optika',

@@ -10,18 +10,18 @@ const About = () => {
                 <div className='flex-1 aboutUsPart translate-y-16 opacity-0'>
                     <h1 className=''>O zrakové terapii</h1>
                     <p className='mt-4'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Natus reprehenderit autem magni praesentium inventore
-                        esse aliquid facere excepturi, eius ad officiis!
-                        Consectetur, porro quidem accusantium quisquam deserunt
-                        neque optio soluta?
+                        Máte potíže se zrakem nebo hledáte odbornou pomoc?
+                        Zraková terapie pomáhá diagnostikovat a rozvíjet zrakové
+                        funkce pomocí speciálních metod, pomůcek a technik.
+                        Zaměřuje se na zlepšení zrakového vnímání pro každodenní
+                        aktivity, vzdělávání i samostatný pohyb.
                     </p>
                     <p className='mt-4'>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Labore odit dolorem rem ipsam molestias dolorum
-                        nesciunt in eaque facere dolor incidunt delectus, sequi
-                        odio perspiciatis exercitationem, velit laboriosam
-                        veritatis sint.
+                        Zrakový terapeut provádí funkční vyšetření zraku,
+                        zrakovou stimulaci a výcvik. Hodnotí zrakovou ostrost,
+                        kontrastní citlivost, zorné pole a další aspekty vidění.
+                        Pomáhá s nácvikem kompenzačních technik a navrhuje
+                        úpravy prostředí pro lepší využití zbytkového zraku.
                     </p>
                 </div>
                 <div className='flex-1 aboutUsPart translate-y-16 opacity-0'>

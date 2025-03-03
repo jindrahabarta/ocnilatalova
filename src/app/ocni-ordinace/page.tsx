@@ -9,7 +9,7 @@ import HeroImg2 from '@/../public/images/Hero/HeroBackground.webp'
 import OpeningTable from '../../../public/components/Global/OpeningTable'
 import Services from '../../../public/components/Global/Services'
 
-import OcniOrdinaceImg2 from '@/../public/images/OcniOrdinace2.webp'
+import OcniOrdinaceImg from '@/../public/images/OcniOrdinace/simon1.jpg'
 
 export const metadata: Metadata = {
     title: 'Oční ordinace',
@@ -46,7 +46,7 @@ const OcniOrdinace = () => {
                 topText={
                     'V našem specializovaném lékařském pracovišti poskytuje metyto služby:'
                 }
-                image={OcniOrdinaceImg2}
+                image={OcniOrdinaceImg}
                 bottomText=' To vše a mnohem více naleznete v naší oční optice v
                         Olomouci.'
             >

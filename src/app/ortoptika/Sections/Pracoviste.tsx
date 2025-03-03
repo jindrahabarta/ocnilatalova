@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import Okluzor from '@/../public/images/okluzor.webp'
+import Okluzor from '@/../public/images/Ortoptika/Okluzor.jpeg'
 
 const Pracoviste = () => {
     return (

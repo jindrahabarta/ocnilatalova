@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 
+import AboutImg from '@/../public/images/simon2noedit.jpeg'
+
 const About = () => {
     return (
         <section id='o-nas' className='container py-20'>
@@ -23,9 +25,7 @@ const About = () => {
                 </div>
                 <div className='flex-1'>
                     <Image
-                        src={
-                            'https://lh3.googleusercontent.com/p/AF1QipNnX147DIcF0sKNynQkQnrJmh0xQ04rO_pxXYwq=s1360-w1360-h1020'
-                        }
+                        src={AboutImg}
                         alt={'Obrázek o nás'}
                         width={1000}
                         height={1000}
