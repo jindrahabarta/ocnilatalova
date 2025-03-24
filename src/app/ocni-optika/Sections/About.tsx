@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import OcniOptikaImg from '@/../public/images/OcniOptika/OcniOptika1.jpg'
+import OcniOptikaImg from '@/../public/images/OcniOptika/OcniOptika1Blur.jpg'
 
 const About = () => {
     return (

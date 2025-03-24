@@ -1,11 +1,11 @@
 import React from 'react'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
 interface props {
     name: string
     role: string
     quote: string
-    image: string
+    image: StaticImageData
 }
 
 const TeamMember = ({ name, role, quote, image }: props) => {

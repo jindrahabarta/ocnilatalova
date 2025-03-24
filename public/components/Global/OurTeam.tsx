@@ -1,11 +1,12 @@
 import React from 'react'
 import TeamMember from './TeamMember'
+import { StaticImageData } from 'next/image'
 
 type TeamMember = {
     name: string
     quote: string
     role: string
-    image: string
+    image: StaticImageData
 }
 
 interface props {

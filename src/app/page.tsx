@@ -4,6 +4,9 @@ import Services from './_components/Sections/Services/Services'
 import OurTeam from '../../public/components/Global/OurTeam'
 import About from './_components/Sections/About/About'
 
+import VeronikaRuzickova from '@/../public/images/Medailonky/VeronikaRuzickova.jpg'
+import SampleImg from '@/../public/images/HeroPhoto.jpg'
+
 export const metadata: Metadata = {
     title: 'Úvod | Oční Látalová Olomouc',
 }
@@ -25,28 +28,34 @@ export default function Home() {
                         name: 'MUDr. Olga Látalová',
                         role: 'Vedoucí lékař',
                         quote: 'Nějaká větička',
-                        image: 'https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVuJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D',
+                        image: SampleImg,
                     },
                     {
                         name: 'MUDr. Olga Floder',
                         role: 'Lékař',
                         quote: 'Nějaká větička',
-                        image: 'https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVuJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D',
+                        image: SampleImg,
                     },
                     {
                         name: 'Věra Šimoníková',
                         role: 'Vedoucí sestra',
                         quote: 'Nějaká větička',
-                        image: 'https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVuJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D',
+                        image: SampleImg,
                     },
                     {
                         name: 'Alena Fadgyasová',
                         role: 'Administrativní pracovník',
                         quote: 'Nějaká větička',
-                        image: 'https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVuJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D',
+                        image: SampleImg,
+                    },
+                    {
+                        name: 'PhDr. Veronika Růžičková',
+                        role: 'Zrakový terapeur',
+                        quote: 'Jsem odborná asistentka, zraková terapeutka a instruktorka prostorové orientace se zaměřením na osoby se zrakovým postižením.',
+                        image: VeronikaRuzickova,
                     },
                 ]}
-                title={'Náš tým'}
+                title={'Lékaři'}
                 title2={'Postaráme se o váš zrak'}
             ></OurTeam>
         </div>
