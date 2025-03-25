@@ -15,8 +15,8 @@ const TeamMember = ({ name, role, quote, image }: props) => {
                 <Image
                     src={image}
                     alt={'Člen týmu'}
-                    width={300}
-                    height={300}
+                    width={200}
+                    height={200}
                     className=' object-cover w-full h-full group-hover:scale-105 duration-200'
                 ></Image>
             </div>
@@ -25,7 +25,7 @@ const TeamMember = ({ name, role, quote, image }: props) => {
                 <h3 className='text-xl text-center'>{name}</h3>
                 <p className='text-sm text-gray-600 text-center'>{role}</p>
             </div>
-            <p className='mt-2 text-base text-gray-600 italic'>
+            <p className='mt-2 text-base text-gray-600 italic max-w-md'>
                 &#34; {quote} &#34;
             </p>
         </div>

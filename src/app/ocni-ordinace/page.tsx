@@ -11,6 +11,9 @@ import Services from '../../../public/components/Global/Services'
 
 import OcniOrdinaceImg from '@/../public/images/OcniOrdinace/simon1.jpg'
 
+import OlgaFloder from '@/../public/images/Medailonky/OlgaFloder.jpg'
+import OlgaLatalova from '@/../public/images/Medailonky/OlgaLatalova.jpg'
+
 export const metadata: Metadata = {
     title: 'Oční ordinace',
     description:
@@ -100,14 +103,14 @@ const OcniOrdinace = () => {
                     {
                         name: 'MUDr. Olga Látalová',
                         role: 'Vedoucí lékař',
-                        quote: 'Nějaká větička',
-                        image: OcniOrdinaceImg,
+                        quote: 'Dlouhodobě jsem pracovala na Oční klinice FN Olomouc, kde jsem se specializovala na dětskou oftalmologii, diagnostiku a léčbu šilhání i binokulárních funkcí.',
+                        image: OlgaLatalova,
                     },
                     {
                         name: 'MUDr. Olga Floder',
                         role: 'Lékař',
-                        quote: 'Nějaká větička',
-                        image: OcniOrdinaceImg,
+                        quote: 'Jsem držitelkou Funkční licence F020 pro vyšetření senzorických a motorických složek binokulárního vidění. Zaměřuji se hlavně na dětskou oftamologii.',
+                        image: OlgaFloder,
                     },
                 ]}
                 title={'Vedoucí lékaři'}
