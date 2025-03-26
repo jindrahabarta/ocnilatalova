@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Button from '../../../../../public/components/Buttons/Button'
 
-import HeroPhoto from '@/../public/images/HeroPhoto.jpg'
+import HeroPhoto from '@/../public/images/Homepage/simon2.jpg'
 
 const MainContent = () => {
     return (
@@ -27,9 +27,9 @@ const MainContent = () => {
                 </div>
             </article>
 
-            <div className='heroPart opacity-0 translate-y-16 relative flex-1 flex items-center select-none pointer-events-none'>
+            <div className='heroPart opacity-0 translate-y-16 relative flex-1 flex items-center justify-end select-none pointer-events-none'>
                 <Image
-                    className=' relative rounded-2xl md:max-w-lg w-full aspect-[video]'
+                    className=' relative rounded-2xl md:max-w-sm lg:max-w-md xl:max-w-lg w-full object-cover'
                     src={HeroPhoto}
                     width={1000}
                     height={1000}
