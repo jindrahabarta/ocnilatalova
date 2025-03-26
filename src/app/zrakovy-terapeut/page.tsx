@@ -7,7 +7,7 @@ import OpeningTable from '../../../public/components/Global/OpeningTable'
 import About from './Sections/About'
 import Services from '../../../public/components/Global/Services'
 
-import ZrakovaTerapie from '@/../public/images/ZrakovaTerapie.jpg'
+import ZrakovaTerapie from '@/../public/images/ZrakovyTerapeut/ZrakovaTerapie2.png'
 
 export const metadata: Metadata = {
     title: 'Zrakový terapeut',
@@ -40,19 +40,32 @@ const ZrakovyTerapeut = () => {
             <About></About>
 
             <Services
-                topText={'Poskytujeme tyto služby'}
+                topText={'Zraková terapie v praxi znamená'}
                 image={ZrakovaTerapie}
-                bottomText=' To vše a mnohem více naleznete v naší oční optice v
-                        Olomouci.'
             >
                 <ul className='list-disc mt-4 pl-4'>
-                    <li>Služba ...</li>
-                    <li>Služba ...</li>
-                    <li>Služba ...</li>
-                    <li>Služba ...</li>
-                    <li>Služba ...</li>
-                    <li>Služba ...</li>
-                    <li>Služba ...</li>
+                    <li>
+                        Vyšetření zrakové ostrosti, kontrastní citlivosti,
+                        barvocitu, zorného pole a adaptace na světlo.
+                    </li>
+                    <li>
+                        Funkční vyšetření zraku se zaměřením na všechny složky
+                        vidění.
+                    </li>
+                    <li>
+                        Diagnostika a rehabilitace zrakových funkcí, včetně CVI
+                        (cerebrální vizuální poruchy).
+                    </li>
+                    <li>
+                        Nácvik kompenzačních technik pro lepší využití
+                        zbytkového vidění s pomocí speciálních optických
+                        pomůcek.
+                    </li>
+                    <li>
+                        Doporučení a úpravy prostředí pro osoby se zrakovým
+                        postižením.
+                    </li>
+                    <li>Výuku orientace a samostatného pohybu v prostoru.</li>
                 </ul>
             </Services>
 
